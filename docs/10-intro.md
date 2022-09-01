@@ -5,44 +5,29 @@ slug : /
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Applied AI and Cognitive Services End to End Health Sector focus built around Form Recognizer Scenario: Health Sector – New Patient registration.
 
-## Getting Started
+## Problem Statement
 
-Get started by **creating a new site**.
+Streamline and improve accuracy of new patient registration system. New patient registration is still a paper-based process and will continue to be for the foreseeable future.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+This solution aims to address data issues that creep in with a paper-based systems as well as reduce the overhead associated with entering the new patient information into backend systems.
 
-### What you'll need
+## Personas
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+|  Persona |   | |
+|---|---|---|
+| Surgery admin: Drew |  Drew role is to ensure new patient are registered in the system. Drew also verifies new patient data before committing to the patient data to the patient system. | ![The image shows the picture of an admin](../static/img/drew.png) |
+| Nurse: Alex | Alex uses new patient registration to understand any existing allergies or medicine reactions. | ![The image shows the picture of a nurse](../static/img/alex.png) |
+| Doctor: Anthony |  Anthony uses new patient registration to understand any existing allergies or medicine reactions. Anthony uses the new patient system to record medical events. | ![The image shows the photo of a doctor](../static/img/anthony.png) |
 
-## Generate a new site
+## New registration process
 
-Generate a new Docusaurus site using the **classic template**.
+1. New patient completes form.
+1. Uploads, then verifies information including spell check.
+1. Submits verified new data.
+1. Surgery admin verifies registration and adds to the doctors patient management system.
+1. Data is stored in patient system.
+1. Document data analysed and translated.
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+![The image shows the registration process](../static/img/registration_process.png)
