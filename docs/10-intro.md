@@ -31,3 +31,7 @@ This solution aims to address data issues that creep in with a paper-based syste
 1. Document data analysed and translated.
 
 ![The image shows the registration process](../static/img/registration_process.png)
+
+## New Patient Registration form
+
+![The image shows the new patient registration form](../static/img/new_patient_form.png)
