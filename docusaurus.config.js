@@ -6,18 +6,22 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://github.com',
+  title: 'New Patient Registration Demo',
+  tagline: 'New Patient Registration Azure Form Recognizer Tutorial',
+
+  url: 'https://patiente2e.github.io/',
   baseUrl: '/docs/',
+
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
+  
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'newpatiente2e', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
+
   deploymentBranch: 'gh-pages', // Branch that GitHub pages will deploy from.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -39,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/newpatiente2e/docs/tree/main',
         },
         blog: false,
         theme: {
