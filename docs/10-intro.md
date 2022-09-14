@@ -19,7 +19,7 @@ This solution aims to address data issues that creep in with a paper-based syste
 |---|---|---|
 | Surgery admin: Drew |  Drew role is to ensure new patient are registered in the system. Drew also verifies new patient data before committing to the patient data to the patient system. | ![The image shows the picture of an admin](../static/img/drew.png) |
 | Nurse: Alex | Alex uses new patient registration to understand any existing allergies or medicine reactions. | ![The image shows the picture of a nurse](../static/img/alex.png) |
-| Doctor: Anthony |  Anthony uses new patient registration to understand any existing allergies or medicine reactions. Anthony uses the new patient system to record medical events. | ![The image shows the photo of a doctor](../static/img/anthony.png) |
+| Doctor: Anthony |  Anthony uses new patient registration to understand any existing allergies or medicine reactions. Anthony uses the new patient system to record medical events. | ![The image shows the photo of a doctor](../static/img/anthony.jpg) |
 
 ## New registration process
 
@@ -28,7 +28,7 @@ This solution aims to address data issues that creep in with a paper-based syste
 1. Submits verified new data.
 1. Surgery admin verifies registration and adds to the doctors patient management system.
 1. Data is stored in patient system.
-1. Document data analysed and translated.
+1. Document data analyzed and translated.
 
 ![The image shows the registration process](../static/img/registration_process.png)
 
