@@ -12,10 +12,11 @@ With your dataset labeled, you're now ready to train your model. Follow these st
     ![Train model dialog](./img/train-model-dialog.png)
 
 1. Select **Train** to initiate the training process.
-
 1. Template models train in a few minutes. Neural models can take up to 30 minutes to train.
-
 1. Navigate to the *Models* menu to view the status of the train operation.
+1. You may need to refresh the **Models** page to see the status of the train operation.
+
+    ![Train model status](./img/train-model-status.png)
 
 ## Test the model
 
