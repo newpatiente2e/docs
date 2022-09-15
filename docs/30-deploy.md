@@ -1,15 +1,8 @@
-# Deploy
+# Deploy Azure Functions
 
-## Prerequisite
+The Azure Functions are the backend of the application. They are responsible for the following:
 
-An Azure account is required. If you don't have an Azure account, then sign up a free [Azure account](https://azure.microsoft.com/free/). If you are a student, you can sign up for a free [Azure for Students](https://azure.microsoft.com/free/students/) without requiring a credit card.
-
-## Create an Azure Form Recognizer service
-
-## Create a Storage account
-
-### Set CORS policy for Storage Account
-
-## Upload labelled dataset
-
-## Train from labelled dataset
+- Calling the Form Recognizer API to extract the data from the uploaded documents
+- Creating a new patient record in the database
+- Retrieving all patient records from the database
+- retrieving a patient record from the database
