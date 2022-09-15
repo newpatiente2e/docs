@@ -1,12 +1,15 @@
 # Train your model
 
-With your dataset labeled, you're now ready to train your model. Select the train button in the upper-right corner.
+With your dataset labeled, you're now ready to train your model. Follow these steps to train your model.
 
-1. On the train model dialog, provide a unique model ID and, optionally, a description. The model ID accepts a string data type.
+1. Select the train button in the upper-right corner.
 
-1. For the build mode, select the type of model you want to train. Learn more about the [model types and capabilities](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer/concept-custom).
+1. From the train a new model dialog, provide a unique model ID and, optionally, a description. The model ID accepts a string data type.
+1. Select **Template** from the **Build Mode**.
 
-    ![Train model dialog](./img/studio-train-model.png)
+    Learn more about the [model types and capabilities](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer/concept-custom).
+
+    ![Train model dialog](./img/train-model-dialog.png)
 
 1. Select **Train** to initiate the training process.
 
