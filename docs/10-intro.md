@@ -7,6 +7,12 @@ slug : /
 
 Applied AI and Cognitive Services End to End Health Sector focus built around Form Recognizer Scenario: Health Sector – New Patient registration.
 
+## Introduction to Form Recognizer
+
+Form Recognizer is a new Cognitive Service that uses machine learning to extract text and table data from form documents. You can train custom models to extract data specific to your forms, or use the prebuilt models to extract common fields from receipts, invoices, and business cards.
+
+This tutorial will walk you through the process of creating a custom model using Form Recognizer Studio. You will use the model to extract data from a new patient registration form.
+
 ## Problem Statement
 
 Streamline and improve accuracy of new patient registration system. New patient registration is still a paper-based process and will continue to be for the foreseeable future.
@@ -32,6 +38,6 @@ This solution aims to address data issues that creep in with a paper-based syste
 
 ![The image shows the registration process](../static/img/registration_process.png)
 
-## New Patient Registration form
+## Architecture
 
-![The image shows the new patient registration form](../static/img/new_patient_form.png)
+![The image shows the architecture of the solution](../static/img/architecture.png)

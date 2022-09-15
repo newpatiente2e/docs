@@ -2,9 +2,9 @@
 
 This topic describes how to upload your training data to the Form Recognizer Studio.
 
-This Hands on Lab includes a *New Patient Registration Form* and matching label data that you need to upload to an Azure storage container.
+This tutorial includes a *New Patient Registration Form* and matching label data that you need to upload to an Azure storage container.
 
-The label data describes the location of the fields on the forms and was created for the lab using Form recognizer Studio. The label data is in a JSON file that is named the same as the form file. For example, the label data for the form named `form1.pdf` is in the file named `form1.pdf.json`. The label data is in the same folder as the form files.
+The label data describes the location of the fields on the forms and was created for the tutorial using Form recognizer Studio. The label data is in a JSON file that is named the same as the form file. For example, the label data for the form named `form1.pdf` is in the file named `form1.pdf.json`. The label data is in the same folder as the form files.
 
 ## Create a storage container
 
@@ -47,13 +47,13 @@ The label data describes the location of the fields on the forms and was created
 
 CORS should now be configured to use the storage account from Form Recognizer Studio.
 
-## Clone the Hands on Lab repository
+## Clone the tutorial repository
 
-Follow these steps to clone the Hands on Lab repository to your local machine.
+Follow these steps to clone the tutorial repository to your local machine.
 
 1. Install [Git](https://git-scm.com/downloads).
-1. Open a command prompt and navigate to the folder where you want to clone the Hands on Lab repository.
-1. Run the following command to clone the Hands on Lab repository:
+1. Open a command prompt and navigate to the folder where you want to clone the tutorial repository.
+1. Run the following command to clone the tutorial repository:
 
     ```bash
     git clone https://github.com/newpatiente2e/new_patient_assets.git
