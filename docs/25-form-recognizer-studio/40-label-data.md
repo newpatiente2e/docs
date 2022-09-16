@@ -2,7 +2,19 @@
 
 In your project, there will be five documents, four of the documents will have an assciated purple dot to indicate the documents have need analyzed and labels. The fifth document need to be analyzed and labelled.
 
+## Video introduction to labelling forms with Form Recognizer
+
+Watch this YouTube to understand how to label a form. Open the video in Youtube to watch in full screen.
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/d1QHX47mSDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## New patient registration form
+
+This is the new patient form that you will label.
+
 ![The image shows the label data panel](./img/label-data-panel.png)
+
+## Label the new patient registration form
 
 The following steps will show you how to label your data.
 
