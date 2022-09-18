@@ -29,6 +29,7 @@ The following steps will show you how to label your data.
     - date_of_birth
     - address_unit
     - address_number
+        - Take care selecting the address number field as the adjacent text 'street' will be likely be selected as well. Click on the text 'street' to unselect it.
     - address_street
     - address_city
     - address_state
