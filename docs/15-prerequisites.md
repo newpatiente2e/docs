@@ -21,7 +21,7 @@ Install the [prerequisites for the Azure Developer CLI](https://learn.microsoft.
 You should have installed the following apps:
 
 1. The [git](https://git-scm.com/) client.
-1. The [GutHub CLI](https://github.com/cli/cli).
+1. The [GitHub CLI](https://github.com/cli/cli).
 1. The [Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli).
 1. The [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=bare-metal%2Clinuxmac&pivots=programming-language-csharp#prerequisites).
 1. [Node.js with npm](https://nodejs.org/).
