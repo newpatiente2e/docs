@@ -5,7 +5,7 @@ slug : /
 
 # Tutorial Intro
 
-Applied AI and Cognitive Services End to End Health Sector focus built around Form Recognizer Scenario: Health Sector – New Patient registration.
+Most of the forms we complete nowadays are online but there are still times when we need to complete paper based forms. There are plenty of examples, for this tutorial, we've chosen a new patient registration for a doctor's surgery.
 
 ## Introduction to Form Recognizer
 
@@ -35,6 +35,7 @@ This solution aims to address data issues that creep in with a paper-based syste
 1. Surgery admin verifies registration and adds to the doctors patient management system.
 1. Data is stored in patient system.
 1. Document data analyzed and translated.
+1. New patient registration records are available to the surgery's nurse and doctor.
 
 ![The image shows the registration process](../static/img/registration_process.png)
 

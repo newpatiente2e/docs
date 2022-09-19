@@ -8,20 +8,43 @@ You will need a computer with a 64-bit operating system. The labs have been test
 
 An active Azure account. If you don't have one, you can create a [free account](https://azure.microsoft.com/free/cognitive-services/). If you are a student, you can also get a [free account](https://azure.microsoft.com/free/students/) without a credit card.
 
-<!-- 1. A [Form Recognizer](https://portal.azure.com/#create/Microsoft.CognitiveServicesFormRecognizer) resource. -->
+## A GitHub account
 
-## Git Client
+If you don't have a GitHub account then sign up or a free [GitHub organization account](https://docs.github.com/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
 
-You will need to clone the tutorial repository to your local machine. You can download and install Git from [here](https://git-scm.com/downloads).
+## Azure Developer CLI (azd)
+
+This tutorial is using the Azure Developer CLI to simplify the creation and deletion of Azure services.
+
+Install the [prerequisites for the Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=bare-metal%2Cwindows&pivots=programming-language-nodejs#configure-your-development-environment).
+
+You should have installed the following apps:
+
+1. The [git](https://git-scm.com/) client.
+1. The [GutHub CLI](https://github.com/cli/cli).
+1. The [Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli).
+1. The [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=bare-metal%2Clinuxmac&pivots=programming-language-csharp#prerequisites).
+1. [Node.js with npm](https://nodejs.org/).
+1. The [.NET SDK 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)
 
 ## Clone the tutorial repository
 
 Follow these steps to clone the tutorial repository to your local machine.
 
-1. Install [Git](https://git-scm.com/downloads).
 1. Open a command prompt and navigate to the folder where you want to clone the tutorial repository.
 1. Run the following command to clone the tutorial repository:
 
     ```bash
     git clone https://github.com/newpatiente2e/new_patient_assets.git
+    ```
+
+## Clone the Azure Functions
+
+Follow these steps to clone the new patient azure functions repository to your local machine.
+
+1. Open a command prompt and navigate to the folder where you want to clone the tutorial repository.
+1. Run the following command to clone the tutorial repository:
+
+    ```bash
+    git clone https://github.com/newpatiente2e/Functions new_patient_functions
     ```

@@ -29,7 +29,9 @@ The following steps will show you how to label your data.
     - date_of_birth
     - address_unit
     - address_number
-        - Take care selecting the address number field as the adjacent text 'street' will be likely be selected as well. Click on the text 'street' to unselect it.
+
+        Take care selecting the address number field as the adjacent text 'street' may also be selected. Click on the text 'street' to unselect it.
+
     - address_street
     - address_city
     - address_state
@@ -43,7 +45,7 @@ The following steps will show you how to label your data.
     - emergency_email
     - emergency_phone
     - allergy_1
-    - reacton_1
+    - reaction_1
     - allergy_2
     - reaction_2
     - allergy_3
