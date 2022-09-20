@@ -4,7 +4,7 @@ With your dataset labeled, you're now ready to train your model. Follow these st
 
 1. Select the train button in the upper-right corner.
 
-    ![imge shows the train form button](./img/train-form-model.png)
+    ![image shows the train form button](./img/train-form-model.png)
 
 1. From the train a new model dialog, name your mode; **new-patient-registration**, and optionally, provide a description.
 1. Select **Template** from the **Build Mode**.

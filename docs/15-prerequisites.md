@@ -12,22 +12,27 @@ An active Azure account. If you don't have one, you can create a [free account](
 
 If you don't have a GitHub account then sign up or a free [GitHub organization account](https://docs.github.com/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
 
-## Azure Developer CLI (azd)
+## Install the Azure Developer CLI (azd)
 
-This tutorial is using the Azure Developer CLI to simplify the creation and deletion of Azure services.
+This tutorial is using the [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/overview?tabs=nodejs) to simplify the creation and deletion of Azure services.
 
-Install the [prerequisites for the Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=bare-metal%2Cwindows&pivots=programming-language-nodejs#configure-your-development-environment).
+There are two ways to use the Azure Developer CLI:
 
-You should have installed the following apps:
+1. The recommended approach is to use the `azd cli` DevContainer. This approach is the easiest and quickest way to get started. If you are not familiar with DevContainers, then you can find more information in the [DevContainer documentation](https://code.visualstudio.com/docs/remote/containers).
+1. Install the prerequisites on your local machine (bare metal).
+
+Follow the instructions to [configure your development environment](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=devcontainer%2Clinuxmac&pivots=programming-language-nodejs#configure-your-development-environment). The instructions include how to install the Azure Developer CLI and how to configure the DevContainer.
+
+If you choose to install the prerequisites on your local machine, then ensure you install the following utilities on your computer:
 
 1. The [git](https://git-scm.com/) client.
-1. The [GutHub CLI](https://github.com/cli/cli).
+1. The [GitHub CLI](https://github.com/cli/cli).
 1. The [Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli).
 1. The [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=bare-metal%2Clinuxmac&pivots=programming-language-csharp#prerequisites).
 1. [Node.js with npm](https://nodejs.org/).
 1. The [.NET SDK 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)
 
-## Clone the tutorial repository
+## Clone the tutorial repo
 
 Follow these steps to clone the tutorial repository to your local machine.
 
@@ -38,9 +43,9 @@ Follow these steps to clone the tutorial repository to your local machine.
     git clone https://github.com/newpatiente2e/new_patient_assets.git contoso_new_patient_assets
     ```
 
-## Clone the Azure Functions
+## Clone the patient registration repo
 
-Follow these steps to clone the new patient azure functions repository to your local machine.
+Follow these steps to clone the patient registration app repo to your local machine.
 
 1. Open a command prompt and navigate to the folder where you want to clone the tutorial repository.
 1. Run the following command to clone the tutorial repository:
@@ -61,11 +66,6 @@ The following services will be created in your Azure subscription
 ## Install the new patient registration services
 
 1. Open a command prompt and navigate to the `contoso_new_patient_app/infra` folder.
-1. Login to your Azure account.
-
-    ```bash
-    az login
-    ```
 
 1. Run the following command to create the required Azure services.
 
