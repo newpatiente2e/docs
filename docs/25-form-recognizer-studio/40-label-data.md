@@ -1,10 +1,10 @@
 # Label your data
 
-In your project, there will be five documents, four of the documents will have an assciated purple dot to indicate the documents have need analyzed and labels. The fifth document need to be analyzed and labelled.
+In your project, there will be five documents, four of the documents will have an associated purple dot to indicate the documents have been analyzed and labeled. The fifth document needs to be analyzed and labeled.
 
-## Video introduction to labelling forms with Form Recognizer
+## Video introduction to labeling forms with Form Recognizer
 
-Watch this YouTube to understand how to label a form. Open the video in Youtube to watch in full screen.
+Watch this YouTube to understand how to label a form. Open the video on Youtube to watch in full screen.
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/d1QHX47mSDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -18,7 +18,7 @@ This is the new patient form that you will label.
 
 The following steps will show you how to label your data.
 
-1. Select the last document in the list of documents named sample.pdf to analyze and then open the document for labelling.
+1. Select the last document in the list of documents named sample.pdf to analyze and then open the document for labeling.
 1. Select the ISO language code for the document. You'll find this field in the top right-hand corner of the document.
 1. Select the Family name field and then from the list of labels select the label `family_name`.
 1. Repeat this process for the other fields in the document. It's important to label all the fields in the document as they will be used to train the model.

@@ -24,7 +24,7 @@ With your dataset labeled, you're now ready to train your model. Follow these st
 
 Once the model training is complete, you can test your model by selecting the model on the models list page.
 
-1. Select the model and select on the **Test** button.
+1. Select the model and select the **Test** button.
 
 1. Select the `+ Add` button to select a file to test the model.
 
@@ -36,4 +36,4 @@ Once the model training is complete, you can test your model by selecting the mo
 
 1. The right navigation bar also has the sample code to invoke your model and the JSON results from the API.
 
-Congratulations you've trained a custom model in the Form Recognizer Studio! Your model is ready for use with the REST API or the SDK to analyze documents.
+Congratulations you've trained a custom model in the Form Recognizer Studio! Your model is ready for use with the new patient registration app.

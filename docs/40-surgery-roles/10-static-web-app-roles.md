@@ -2,7 +2,7 @@
 
 Introduction to Azure Static Web Apps roles. [Learn more](https://docs.microsoft.com/azure/static-web-apps/authentication-authorization)
 
-Azure Static Web Apps provides a streamlined authentication experience. By default, for free tier Static Web Apps, you have access to a series of pre-configured providers. For higher tier Static Web Apps, you can register a custom authentication providers.
+Azure Static Web Apps provides a streamlined authentication experience. The free tier Static Web Apps include several pre-configured providers. For higher tier Static Web Apps, you can register a custom authentication providers.
 
 ## Role management
 

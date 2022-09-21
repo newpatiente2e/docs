@@ -22,10 +22,10 @@ Your training set will consist of structured documents where the formatting and 
 
 ### Custom neural model
 
-The custom neural (custom document) model uses deep learning models and  base model trained on a large collection of documents. This model is then fine-tuned or adapted to your data when you train the model with a labeled dataset. Custom neural models support structured, semi-structured, and unstructured documents to extract fields. Custom neural models currently support English-language documents. When you're choosing between the two model types, start with a neural model to determine if it meets your functional needs. See [neural models](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer/concept-custom-neural) to learn more about custom document models.
+The custom neural (custom document) model uses deep learning models and base models trained on a large collection of documents. This model is then fine-tuned or adapted to your data when you train the model with a labeled dataset. Custom neural models support structured, semi-structured, and unstructured documents to extract fields. Custom neural models currently support English-language documents. When you're choosing between the two model types, start with a neural model to determine if it meets your functional needs. See [neural models](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer/concept-custom-neural) to learn more about custom document models.
 
 ## New patient registration form
 
-In this tutorial, you will create a custom template model to recognize the fields in the new patient registration form shown below. There are five forms in the training set, and each form contains the same fields, four of the forms have been labelled, the fifth form is unlabeled. As part of this tutorial, you will label the fifth form.
+In this tutorial, you will create a custom template model to recognize the fields in the new patient registration form shown below. There are five forms in the training set, and each form contains the same fields, four of the forms have been labeled, the fifth form is unlabeled. As part of this tutorial, you will label the fifth form.
 
 ![The image shows the new patient registration form](./img/new_patient_form.png)

@@ -10,7 +10,7 @@ An active Azure account. If you don't have one, you can create a [free account](
 
 ## A GitHub account
 
-If you don't have a GitHub account then sign up or a free [GitHub organization account](https://docs.github.com/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
+If you don't have a GitHub account then sign up for a free [GitHub organization account](https://docs.github.com/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
 
 ## Install the Azure Developer CLI (azd)
 
