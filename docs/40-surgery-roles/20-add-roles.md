@@ -2,13 +2,15 @@
 
 ## Social logins
 
-- Microsoft ID
-- Google ID
 - Github ID
-- Facebook ID
+- Google ID
+- AAD (Azure Active Directory)
 
 ## Create Static Web App roles
 
-## Deploy surgery roles
+## Add roles to Static Web App config file
 
-## Add roles to Static Web App
+## Redeploy Static Web App
+
+## Authenticate the patient registration app
+
