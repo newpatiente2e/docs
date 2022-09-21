@@ -1,4 +1,4 @@
-# Upload a patient document
+# Upload a registration form
 
 Create a new patient registration form and upload it to the patient registration app.
 
