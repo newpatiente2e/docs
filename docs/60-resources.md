@@ -1,3 +1,13 @@
 # Resources
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in odio vel enim sodales accumsan. Curabitur accumsan bibendum elit pharetra finibus. Aliquam urna magna, facilisis vitae orci at, ultrices rhoncus sem. Nam ut metus risus. Vivamus mattis pellentesque arcu at condimentum. Quisque tristique varius arcu eu volutpat. Nullam pharetra leo sit amet erat sagittis, non mollis elit porttitor. Aliquam tincidunt, nisl vitae tempus finibus, urna leo aliquam elit, id iaculis justo mauris eu dolor. Sed tempus magna sit amet aliquet ullamcorper. Duis facilisis aliquam viverra. Pellentesque iaculis tincidunt tristique. Integer sed enim efficitur, iaculis risus eget, aliquam neque. Etiam congue id lectus vel tincidunt. Proin tristique lobortis ex, sed elementum ex congue consequat.
+The following Azure resources are used in this tutorial.
+
+- [Azure Static Web Apps](https://azure.microsoft.com/services/app-service/static/)
+- [Azure Cosmos DB](https://azure.microsoft.com/services/cosmos-db/)
+- [Azure Form Recognizer](https://azure.microsoft.com/services/form-recognizer/)
+- [Azure Functions](https://azure.microsoft.com/services/functions/)
+
+The following resources are used in this tutorial.
+
+- [Contoso new patient assets](https://github.com/newpatiente2e/new_patient_assets)
+- [Contoso new patient app](https://github.com/newpatiente2e/Contoso-New-Patient-App)

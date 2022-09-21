@@ -6,7 +6,7 @@ This tutorial includes a *New Patient Registration Form* and matching label data
 
 The label data describes the location of the fields on the forms and was created for the tutorial using Form recognizer Studio. The label data is in a JSON file that is named the same as the form file. For example, the label data for the form named `form1.pdf` is in the file named `form1.pdf.json`. The label data is in the same folder as the form files.
 
-## Create a storage container
+<!-- ## Create a storage container
 
 1. Navigate to [create a Storage account](https://portal.azure.com/#create/Microsoft.StorageAccount).
 1. On the **Create storage account** page, enter the following values:
@@ -43,7 +43,7 @@ The label data describes the location of the fields on the forms and was created
 
 1. Select the save button at the top of the page to save the changes.
 
-CORS should now be configured to use the storage account from Form Recognizer Studio.
+CORS should now be configured to use the storage account from Form Recognizer Studio. -->
 
 ## Upload new patient registration form training data
 
