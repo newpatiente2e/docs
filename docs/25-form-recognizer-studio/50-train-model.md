@@ -9,7 +9,7 @@ With your dataset labeled, you're now ready to train your model. Follow these st
 1. From the train a new model dialog, name your mode; **new-patient-registration**, and optionally, provide a description.
 1. Select **Template** from the **Build Mode**.
 
-    Learn more about the [model types and capabilities](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer/concept-custom).
+    Learn more about the [model types and capabilities](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer/concept-custom?WT.mc_id=aiml-77396-cxa).
 
     ![Train model dialog](./img/train-model-dialog.png)
 
