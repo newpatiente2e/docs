@@ -18,7 +18,7 @@ You can either print the form and fill it out by hand, or you can open the form 
 1. Open the `contoso_new_patient_assets/forms/new_patient_information.pdf` file in a PDF reader.
 1. Complete the form using the edit tools in the PDF reader.
 1. Save the file.
-1. Upload the file to the patient registration app.
+1. Upload the file using the patient registration app.
 1. The patient registration app will extract the patient information from the form and display the information in the app.
 1. Confirm the information is correct and click the **Submit** button.
 

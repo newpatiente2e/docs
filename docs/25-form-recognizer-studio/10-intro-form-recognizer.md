@@ -8,7 +8,7 @@ Form Recognizer uses advanced machine learning to extract text and table data fr
 
 To train a custom model, you need to provide a set of labeled training documents. The training documents should be in the same format as the documents you want to recognize. For example, if you want to recognize receipts, you should provide labeled training receipts.
 
-You only need five examples of the same type of document to train a custom model. For example, if you want to recognize receipts, you only need five labeled receipts.
+You need at least five examples of a document type to train a custom model. For example, if you want to recognize receipts, you'd need five labeled receipts examples.
 
 ## Custom model types
 
@@ -18,7 +18,7 @@ Custom models can be one of two types, [**custom template**](https://docs.micros
 
 The custom template or custom form model relies on a consistent visual template to extract the labeled data. The accuracy of your model is affected by variances in the visual structure of your documents. Structured  forms such as questionnaires or applications are examples of consistent visual templates.
 
-Your training set will consist of structured documents where the formatting and layout are static and constant from one document instance to the next. Custom template models support key-value pairs, selection marks, tables, signature fields, and regions. Template models and can be trained on documents in any of the [supported languages](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer/language-support). For more information, *see* [custom template models](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer/concept-custom-template).
+Your training set will consist of structured documents where the formatting and layout is static and constant from one document instance to the next. Custom template models support key-value pairs, selection marks, tables, signature fields, and regions. Template models and can be trained on documents in any of the [supported languages](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer/language-support). For more information, *see* [custom template models](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer/concept-custom-template).
 
 ### Custom neural model
 
@@ -26,6 +26,8 @@ The custom neural (custom document) model uses deep learning models and base mod
 
 ## New patient registration form
 
-In this tutorial, you will create a custom template model to recognize the fields in the new patient registration form shown below. There are five forms in the training set, and each form contains the same fields, four of the forms have been labeled, the fifth form is unlabeled. As part of this tutorial, you will label the fifth form.
+In this tutorial, you will create a _custom template model_ to recognize the fields in the new patient registration form shown below. There are five forms in the training set, and each form contains the same fields, four of these forms have been labeled, the fifth form is unlabeled. As part of this tutorial, you will label the fifth form.
+
+The following form will use to train your custom template model and is found in the _contoso_new_patient_assets_ repo you cloned earlier.
 
 ![The image shows the new patient registration form](./img/new_patient_form.png)

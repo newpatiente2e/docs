@@ -23,7 +23,7 @@ There are two ways to use the Azure Developer CLI:
 
 Follow the instructions to [configure your development environment](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=devcontainer%2Clinuxmac&pivots=programming-language-nodejs#configure-your-development-environment). The instructions include how to install the Azure Developer CLI and how to configure the DevContainer.
 
-If you choose to install the prerequisites on your local machine, then ensure you install the following utilities on your computer:
+If you choose to install the prerequisites on your local machine, then ensure you install the following apps on your computer:
 
 1. The [git](https://git-scm.com/) client.
 1. The [GitHub CLI](https://github.com/cli/cli).
@@ -32,23 +32,23 @@ If you choose to install the prerequisites on your local machine, then ensure yo
 1. [Node.js with npm](https://nodejs.org/).
 1. The [.NET SDK 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)
 
-## Clone the tutorial repo
+## Clone the patient registration assets repo
 
-Follow these steps to clone the tutorial repository to your local machine.
+Follow these steps to clone the patient registration assets repo to your local machine.
 
-1. Open a command prompt and navigate to the folder where you want to clone the tutorial repository.
-1. Run the following command to clone the tutorial repository:
+1. Open a command prompt and navigate to the folder where you want to clone the repo.
+1. Run the following command to clone the tutorial repo:
 
     ```bash
-    git clone https://github.com/newpatiente2e/new_patient_assets.git contoso_new_patient_assets
+    git clone https://github.com/newpatiente2e/-Contoso-New-Patient-Assets.git contoso_new_patient_assets
     ```
 
-## Clone the patient registration repo
+## Clone the patient registration app repo
 
 Follow these steps to clone the patient registration app repo to your local machine.
 
-1. Open a command prompt and navigate to the folder where you want to clone the tutorial repository.
-1. Run the following command to clone the tutorial repository:
+1. Open a command prompt and navigate to the folder where you want to clone the repo.
+1. Run the following command to clone the tutorial repo:
 
     ```bash
     git clone https://github.com/newpatiente2e/Contoso-New-Patient-App.git contoso_new_patient_app

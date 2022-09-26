@@ -1,6 +1,6 @@
 # Upload training data
 
-This topic describes how to upload your training data to the Form Recognizer Studio.
+This topic describes how to upload your training data to [Form Recognizer Studio](https://learn.microsoft.com/azure/applied-ai-services/form-recognizer/concept-form-recognizer-studio).
 
 This tutorial includes a *New Patient Registration Form* and matching label data you need to upload to an Azure storage container.
 
@@ -47,15 +47,17 @@ CORS should now be configured to use the storage account from Form Recognizer St
 
 ## Upload new patient registration form training data
 
+From your web browser, navigate to the [Azure resource groups](https://portal.azure.com/#view/HubsExtension/BrowseAll) page for your subscription and select the resource group whose name starts with `contoso-patient-registration`.
+
 Upload the *New Patient Registration Form* and matching label data to the storage container that you created in the previous step.
 
+1. Navigate to the [Azure resource groups](https://portal.azure.com/#view/HubsExtension/BrowseAll) page.
+1. Select the resource group whose name starts with **contoso-patient-registration**. You can use the filter box to help find the resource group.
+1. Select the storage account whose name starts with **stgforms**
 1. From the **Storage account** page, select **Containers**.
-1. Select **+ Container**.
-1. Name the name container `trainingdata`.
-1. Select **Create**.
-1. From the **Containers** page, select the **trainingdata** container.
+1. Select the `trainingdata` container
 1. On the **trainingdata** page, select **Upload**.
 1. On the **Upload** page, select the **Add files** icon.
-1. In the **Add files** dialog, select the all the files from the **contoso_new_patient_assets/training_labelled** folder you cloned to your computer.
+1. From the **Add files** dialog, select the all the files from the **contoso_new_patient_assets/training_labelled** folder you cloned to your computer.
 1. Select **Open**.
 1. Select **Upload**.

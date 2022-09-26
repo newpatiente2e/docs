@@ -50,8 +50,8 @@ Redeploy the app to Azure Static Web Apps with the Azure Developer CLI.
 
 ## Sign in to the surgery app
 
-Sign in to the surgery app.
+Sign in to the patient registration app.
 
-1. From the patient registration app, select **Sign in**, and then select the login provider you configured with roles when you created a role invitation in the previous section.
-1. If you added the **admin** role to the invitation, then you can sign into the patient registration app and add new patients from the **Admin** tab.
-1. If you also added the **nurse** or **doctor** roles to the invitation, then you can view patient details in the surgery app from the **patient** tab.
+1. From the patient registration app, select **Sign in**, and then select the **GitHub** login provider.
+1. If you added the **admin** role to the invitation, then you can add new patient registrations from the **Admin** tab.
+1. If you also added the **nurse** or **doctor** roles to the invitation, then you can view patient details from the **patient** tab.

@@ -11,7 +11,7 @@ Most of the forms we complete nowadays are online but there are still times when
 
 This solution aims to address data issues that creep in with paper-based systems, plus the overhead associated with entering the new patient information into the surgery system.
 
-New patient registration for the doctor's surgery is still a paper-based process and will continue to be for the foreseeable future. The surgery wants to improve the patient experience by moving to an online registration process. The surgery has a website and a mobile app but they are not currently integrated with the patient registration process.
+For this doctor's surgery, patient registration is still a paper-based process and will continue to be so for the foreseeable future. The surgery wants to improve the patient experience by moving to an online registration process. The surgery has a website and a mobile app, but it's not integrated with the patient registration process.
 
 ## Tutorial goals
 
@@ -48,9 +48,9 @@ The following outlines the process of the solution:
 1. The web app uses Form Recognizer to extract the data from the form.
 1. The app returns the extracted data to the patient.
 1. The patient submits the verified new data.
-1. The Surgery admin verifies registration and adds it to the doctor's surgery system.
+1. The surgery admin verifies registration and adds it to the doctor's surgery system.
 1. Data is stored in the surgery system.
-1. Document data analyzed and translated.
+1. Document data is analyzed and translated.
 1. New patient registration records are available to the surgery's nurse and doctor.
 
 ![The image shows the registration process](../static/img/registration_process.png)

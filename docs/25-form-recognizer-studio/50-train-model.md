@@ -2,7 +2,7 @@
 
 With your dataset labeled, you're now ready to train your model. Follow these steps to train your model.
 
-1. Select the train button in the upper-right corner.
+1. Select the Train button in the upper-right corner.
 
     ![image shows the train form button](./img/train-form-model.png)
 
@@ -16,7 +16,7 @@ With your dataset labeled, you're now ready to train your model. Follow these st
 1. Select **Train** to initiate the training process.
 1. Template models train in a few minutes. Neural models can take up to 30 minutes to train.
 1. Navigate to the *Models* menu to view the status of the train operation.
-1. You may need to refresh the **Models** page to see the status of the train operation.
+1. You may need to refresh the **Models** page to see latest status of the train operation.
 
     ![Train model status](./img/train-model-status.png)
 
@@ -36,4 +36,4 @@ Once the model training is complete, you can test your model by selecting the mo
 
 1. The right navigation bar also has the sample code to invoke your model and the JSON results from the API.
 
-Congratulations you've trained a custom model in the Form Recognizer Studio! Your model is ready for use with the new patient registration app.
+Congratulations you've trained a custom model in the Form Recognizer Studio! Your model is ready for use with the patient registration app.

@@ -1,6 +1,6 @@
 # Label your data
 
-In your project, there will be five documents, four of the documents will have an associated purple dot to indicate the documents have been analyzed and labeled. The fifth document needs to be analyzed and labeled.
+In your project, there are five documents, four of the documents have a purple dot to indicate the documents have been analyzed and labeled. The fifth document needs to be analyzed and labeled.
 
 ## Video introduction to labeling forms with Form Recognizer
 
@@ -10,7 +10,7 @@ Watch this YouTube to understand how to label a form. Open the video on Youtube 
 
 ## New patient registration form
 
-This is the new patient form that you will label.
+The following image is of the fifth document that needs to be labeled.
 
 ![The image shows the label data panel](./img/label-data-panel.png)
 
@@ -18,12 +18,13 @@ This is the new patient form that you will label.
 
 The following steps will show you how to label your data.
 
-1. Select the last document in the list of documents named sample.pdf to analyze and then open the document for labeling.
-1. Select the ISO language code for the document. You'll find this field in the top right-hand corner of the document.
-1. Select the Family name field and then from the list of labels select the label `family_name`.
-1. Repeat this process for the other fields in the document. It's important to label all the fields in the document as they will be used to train the model.
+1. Select the last document in the list of documents. The document is named _sample.pdf_. Selecting the document will analyze and then open the document for labeling.
+1. Select the ISO language code for the document. You'll find this field in the top right-hand corner of the document, then from the list of labels, select **iso**.
+1. Select the Family name field, then from the list of labels, select `family_name`.
 
-    To assign a value to the field, choose a word or words in the document and select the field in either the dropdown or the field list on the right navigation bar. You'll see the labeled value below the field name in the list of fields.
+    You can filter the list of labels by typing the label name in the list of labels dropdown. For example, if you type `family` in the list of labels, the `family_name` label will be displayed.
+
+1. Repeat this process for the other fields in the document. It's important to label all the fields in the document as they will be used to train the model.
 
     - given_names
     - date_of_birth
