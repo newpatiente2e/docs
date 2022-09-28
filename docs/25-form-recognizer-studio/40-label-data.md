@@ -28,19 +28,17 @@ The following steps will show you how to label your data.
 
     - given_names
     - date_of_birth
-    - address_unit
-    - address_number
-
-        Take care selecting the address number field as the adjacent text 'street' may also be selected. Click on the text 'street' to unselect it.
-
     - address_street
     - address_city
     - address_state
     - address_code
     - email
     - phone
-    - gender identity: male, female, ftm, mtf, queer, decline
-    - preferred pronoun: she, he, they, other
+    - prefer_email
+    - prefer_phone
+    - prefer_text
+    - gender_identity
+    - my_pronouns
     - emergency_name
     - emergency_relationship
     - emergency_email

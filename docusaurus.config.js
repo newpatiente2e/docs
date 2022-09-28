@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'New Patient Registration Demo',
-  tagline: 'New Patient Registration Azure Form Recognizer Tutorial',
+  tagline: 'New Patient Registration Azure Form Recognizer Workshop',
 
   url: 'https://patiente2e.github.io/',
   baseUrl: '/docs/',
@@ -71,7 +71,7 @@ const config = {
         links: [
                  
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} New Patient Form Recognizer Tutorial. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} New Patient Form Recognizer Workshop. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

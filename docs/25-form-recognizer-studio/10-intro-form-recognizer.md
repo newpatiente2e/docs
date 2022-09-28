@@ -26,7 +26,7 @@ The custom neural (custom document) model uses deep learning models and base mod
 
 ## New patient registration form
 
-In this tutorial, you will create a _custom template model_ to recognize the fields in the new patient registration form shown below. There are five forms in the training set, and each form contains the same fields, four of these forms have been labeled, the fifth form is unlabeled. As part of this tutorial, you will label the fifth form.
+In this workshop, you will create a _custom template model_ to recognize the fields in the new patient registration form shown below. There are five forms in the training set, and each form contains the same fields, four of these forms have been labeled, the fifth form is unlabeled. As part of this workshop, you will label the fifth form.
 
 The following form will use to train your custom template model and is found in the _contoso_new_patient_assets_ repo you cloned earlier.
 

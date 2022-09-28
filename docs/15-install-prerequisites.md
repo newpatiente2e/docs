@@ -14,7 +14,7 @@ If you don't have a GitHub account then sign up for a free [GitHub organization 
 
 ## Install the Azure Developer CLI (azd)
 
-This tutorial is using the [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/overview?tabs=nodejs&WT.mc_id=aiml-77396-cxa) to simplify the creation and deletion of Azure services.
+This workshop is using the [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/overview?tabs=nodejs&WT.mc_id=aiml-77396-cxa) to simplify the creation and deletion of Azure services.
 
 There are two ways to use the Azure Developer CLI:
 
@@ -37,7 +37,7 @@ If you choose to install the prerequisites on your local machine, then ensure yo
 Follow these steps to clone the patient registration assets repo to your local machine.
 
 1. Open a command prompt and navigate to the folder where you want to clone the repo.
-1. Run the following command to clone the tutorial repo:
+1. Run the following command to clone the workshop repo:
 
     ```bash
     git clone https://github.com/newpatiente2e/-Contoso-New-Patient-Assets.git contoso_new_patient_assets
@@ -48,7 +48,7 @@ Follow these steps to clone the patient registration assets repo to your local m
 Follow these steps to clone the patient registration app repo to your local machine.
 
 1. Open a command prompt and navigate to the folder where you want to clone the repo.
-1. Run the following command to clone the tutorial repo:
+1. Run the following command to clone the workshop repo:
 
     ```bash
     git clone https://github.com/newpatiente2e/Contoso-New-Patient-App.git contoso_new_patient_app

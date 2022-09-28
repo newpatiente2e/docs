@@ -21,10 +21,10 @@ Invitations are specific to individual authorization-providers, so consider the 
 1. Navigate to a Static Web Apps resource in the [Azure portal](https://portal.azure.com).
 1. Under _Settings_, click on **Role Management**.
 1. Click on the **Invite** button.
-1. Select an _Authorization provider_ from the list of options. Given a GitHub account is required for this tutorial, select **GitHub**.
+1. Select an _Authorization provider_ from the list of options. Given a GitHub account is required for this workshop, select **GitHub**.
 1. Enter your GitHub account name in the _Invitee details_ box.
 1. Select the domain of your static site from the _Domain_ drop-down.
-1. For this tutorial, add the following roles **admin,nurse,doctor** to list of role names in the _Role_ box. In a production app, you would normally only add the roles that are appropriate for the user.
+1. For this workshop, add the following roles **admin,nurse,doctor** to list of role names in the _Role_ box. In a production app, you would normally only add the roles that are appropriate for the user.
 1. Enter the maximum number of hours you want the invitation to remain valid.
 1. Click the **Generate** button.
 1. Copy the link from the _Invite link_ box.
