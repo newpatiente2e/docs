@@ -24,4 +24,8 @@ Use the **contoso_new_patient_assets/forms/new_patient_information_language.pdf*
 1. The patient registration app will extract the patient information from the form and display the information in the app.
 1. Confirm the information is correct and click the **Submit** button.
 
-![The gif shows the process of uploading a form](./img/basic-workflow.gif)
+    ![The gif shows the process of uploading a form](./img/basic-workflow.gif)
+
+## Validate the patient information
+
+The patient registration app will extract the patient information from the form and display the information in the app. Confirm the information is correct and click the **Submit** button.
