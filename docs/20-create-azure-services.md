@@ -11,13 +11,8 @@ The following services will be created in your Azure subscription
 
 ## Install the new patient registration services
 
-1. Open a command prompt and navigate to the `contoso_new_patient_app/infra` folder.
+1. Open a command prompt and navigate to the `contoso_new_patient_app` folder.
 
-1. Run the following command to create the required Azure services.
+1. Initialize your Azure environment with `azd init`, and follow the prompts to log in to your Azure subscription, create a name for your resources (e.g: `contoso-health-app`), and select a region (e.g: `eastus`).
 
-
-TODO @AARON: Add the command to create the Azure services.
-
-```bash
-azd up --template resources
-```
+1. Deploy the Azure services with `azd up`.
