@@ -12,24 +12,27 @@ An active Azure account. If you don't have one, you can create a [free account](
 
 If you don't have a GitHub account then sign up for a free [GitHub organization account](https://docs.github.com/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
 
-## Install the Azure Developer CLI (azd)
+## Local Development
 
-This workshop is using the [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/overview?tabs=nodejs&WT.mc_id=aiml-77396-cxa) to simplify the creation and deletion of Azure services.
+The application is a combination of C# for the API and integration with [Azure Form Recognizer](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer?WT.mc_id=aiml-77396-cxa), React with TypeScript for the web frontend, and [Bicep](https://learn.microsoft.com/azure/azure-resource-manager/bicep/overview?tabs=bicep&WT.mc_id=aiml-77396-cxa) for managing the Azure resources (maanged via the [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=bare-metal%2Clinuxmac&pivots=programming-language-csharp&WT.mc_id=aiml-77396-cxa)).
 
-There are two ways to use the Azure Developer CLI:
+For local development, we recommend using [VS Code](https://code.visualstudio.com/?WT.mc_id=aiml-77396-cxa) as the editor of choice, and the workshop is optimised for that.
 
-1. The recommended approach is to use the `azd cli` DevContainer. This approach is the easiest and quickest way to get started. If you are not familiar with DevContainers, then you can find more information in the [DevContainer documentation](https://code.visualstudio.com/docs/remote/containers?WT.mc_id=aiml-77396-cxa).
-1. Install the prerequisites on your local machine (bare metal).
+This workshop is using the [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/overview?tabs=nodejs&WT.mc_id=aiml-77396-cxa) to simplify the creation, management, and deletion of Azure services.
 
-Follow the instructions to [configure your development environment](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=devcontainer%2Clinuxmac&pivots=programming-language-nodejs&WT.mc_id=aiml-77396-cxa). The instructions include how to install the Azure Developer CLI and how to configure the DevContainer.
+### Recommended Local Setup
 
-If you choose to install the prerequisites on your local machine, then ensure you install the following apps on your computer:
+The recommended way to undertake the local development aspects of the workshop is to use [VS Code Remote Containers](https://code.visualstudio.com/docs/remote/containers?WT.mc_id=aiml-77396-cxa) (aka, devcontainers), which creates a Docker environment that is pre-installed with all the tools, dependencies, and extensions to complete the workshop.
+
+### Manual Local Setup
+
+If you choose not to use the devcontainer, you will need to install the prerequisites on your local machine, then ensure you install the following apps on your computer:
 
 1. The [git](https://git-scm.com/) client.
 1. The [GitHub CLI](https://github.com/cli/cli).
 1. The [Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli?WT.mc_id=aiml-77396-cxa).
 1. The [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=bare-metal%2Clinuxmac&pivots=programming-language-csharp&WT.mc_id=aiml-77396-cxa).
-1. [Node.js with npm](https://nodejs.org/).
+1. [Node.js v16 with npm](https://nodejs.org/).
 1. The [.NET SDK 6.0](https://dotnet.microsoft.com/download/dotnet/6.0?WT.mc_id=aiml-77396-cxa)
 
 ## Clone the patient registration assets repo
@@ -39,9 +42,9 @@ Follow these steps to clone the patient registration assets repo to your local m
 1. Open a command prompt and navigate to the folder where you want to clone the repo.
 1. Run the following command to clone the workshop repo:
 
-    ```bash
-    git clone https://github.com/newpatiente2e/-Contoso-New-Patient-Assets.git contoso_new_patient_assets
-    ```
+   ```bash
+   git clone https://github.com/newpatiente2e/-Contoso-New-Patient-Assets.git contoso_new_patient_assets
+   ```
 
 ## Clone the patient registration app repo
 
@@ -50,6 +53,6 @@ Follow these steps to clone the patient registration app repo to your local mach
 1. Open a command prompt and navigate to the folder where you want to clone the repo.
 1. Run the following command to clone the workshop repo:
 
-    ```bash
-    git clone https://github.com/newpatiente2e/Contoso-New-Patient-App.git contoso_new_patient_app
-    ```
+   ```bash
+   git clone https://github.com/newpatiente2e/Contoso-New-Patient-App.git contoso_new_patient_app
+   ```
