@@ -4,7 +4,9 @@ Complete a new patient registration form and upload it to the patient registrati
 
 ## Open the new patient registration form
 
-You can either print the form and fill it out by hand, or you can open the form in a PDF reader and edit the document. The form is located in the **contoso_new_patient_assets** folder you cloned to your computer. Open the **contoso_new_patient_assets/forms/new_patient_information_language.pdf** file that matches the language you used to label and train the model in Form Recognizer Studio.
+You can print the document and then fill it out by hand, or you can open the document in a PDF reader and edit the document. 
+
+Use the **contoso_new_patient_assets/forms/new_patient_information_language.pdf** document that matches the language you used to label and train the model in Form Recognizer Studio.
 
 ### Fill out the form by hand
 
