@@ -27,12 +27,12 @@ You can filter the list of labels by typing the label name in the list of labels
 
 The following tables show the labels that are available for the new patient registration form for the following languages:
 
-- [English labels](#english-labels)
-- [Spanish labels](#spanish-labels)
-- [Portuguese labels](#portuguese-labels)
-- [Mandarin labels](#mandarin-labels)
+- [English Labels](#english-labels)
+- [Etiquetas espanholas](#etiquetas-espanholas)
+- [Etiquetas portuguesas](#etiquetas-portuguesas)
+- [普通话标签](#普通话标签)
 
-## English labels
+## English Labels
 
 1. Select the Family name field on the analyzed document, then from the list of labels, select `family_name`.
 1. Repeat this process for the remaining fields in the document. It's important to correctly label all the fields in the document as they will be used to train the model.
@@ -67,7 +67,7 @@ The following tables show the labels that are available for the new patient regi
 
 You now have all the documents in your dataset labeled. If you look at the storage account, you'll find a *.labels.json* and *.ocr.json* files that correspond to each document in your training dataset and a new fields.json file. This training dataset will be submitted to train the model.
 
-## Spanish labels
+## Etiquetas espanholas
 
 1. Seleccione el campo Nombre de familia en el documento analizado, luego de la lista de etiquetas, seleccione `nombre_de_familia`.
 1. Repita este proceso para los campos restantes del documento. Es importante etiquetar correctamente todos los campos del documento, ya que se utilizarán para entrenar el modelo.
@@ -102,7 +102,7 @@ You now have all the documents in your dataset labeled. If you look at the stora
 
 Ahora tiene todos los documentos en su conjunto de datos etiquetados. Si observa la cuenta de almacenamiento, encontrará archivos *.labels.json* y *.ocr.json* que corresponden a cada documento en su conjunto de datos de entrenamiento y un nuevo archivo fields.json. Este conjunto de datos de entrenamiento se enviará para entrenar el modelo.
 
-## Portuguese labels
+## Etiquetas portuguesas
 
 1. Selecione o campo Family name no documento analisado e, na lista de rótulos, selecione `family_name`.
 1. Repita este processo para os demais campos do documento. É importante rotular corretamente todos os campos no documento, pois eles serão usados para treinar o modelo.
@@ -120,7 +120,7 @@ Ahora tiene todos los documentos en su conjunto de datos etiquetados. Si observa
     | E-mail | email |
     | Phone | Telefone |
     | E-mail de preferência checkbox | prefer_email |
-    | Telefone de preferênciacheckbox | prefer_phone |
+    | Telefone de preferência checkbox | prefer_phone |
     | Texto de preferência checkbox | prefer_text |
     | Minha identidade de gênero | gender_identity |
     | Meus pronomes | my_pronouns |
@@ -137,7 +137,7 @@ Ahora tiene todos los documentos en su conjunto de datos etiquetados. Si observa
     
 Agora você tem todos os documentos em seu conjunto de dados rotulados. Se você observar a conta de armazenamento, encontrará arquivos *.labels.json* e *.ocr.json* que correspondem a cada documento em seu conjunto de dados de treinamento e um novo arquivo fields.json. Este conjunto de dados de treinamento será enviado para treinar o modelo.
 
-## Mandarin labels
+## 普通话标签
 
 1. 选择分析文档上的姓氏字段，然后从标签列表中选择“family_name”。
 1. 对文档中的其余字段重复此过程。 正确标记文档中的所有字段非常重要，因为它们将用于训练模型。
