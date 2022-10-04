@@ -151,7 +151,6 @@ Agora você tem todos os documentos em seu conjunto de dados rotulados. Se você
 1. 选择分析文档上的姓氏字段，然后从标签列表中选择“family_name”。
 1. 对文档中的其余字段重复此过程。 正确标记文档中的所有字段非常重要，因为它们将用于训练模型。
 
-    ![This image is the Chinese registration form](./img/new_patient_form_chinese.png)
 
     |  文档元素 | 标签名称  |
     |---|---|
