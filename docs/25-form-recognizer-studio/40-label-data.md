@@ -37,6 +37,8 @@ The following tables show the labels that are available for the new patient regi
 1. Select the Family name field on the analyzed document, then from the list of labels, select `family_name`.
 1. Repeat this process for the remaining fields in the document. It's important to correctly label all the fields in the document as they will be used to train the model.
 
+    ![This image is the english registration form](./img/new_patient_form.png)
+
     |  Document element | Label name  |
     |---|---|
     | Document language iso | iso  |
@@ -72,6 +74,8 @@ You now have all the documents in your dataset labeled. If you look at the stora
 
 1. Seleccione el campo Nombre de familia en el documento analizado, luego de la lista de etiquetas, seleccione `nombre_de_familia`.
 1. Repita este proceso para los campos restantes del documento. Es importante etiquetar correctamente todos los campos del documento, ya que se utilizarán para entrenar el modelo.
+
+    ![This image is the spanish registration form](./img/new_patient_form_spanish.png)
 
     |  Elemento de documento | Nombre de etiqueta  |
     |---|---|
@@ -109,6 +113,8 @@ Ahora tiene todos los documentos en su conjunto de datos etiquetados. Si observa
 1. Selecione o campo Family name no documento analisado e, na lista de rótulos, selecione `family_name`.
 1. Repita este processo para os demais campos do documento. É importante rotular corretamente todos os campos no documento, pois eles serão usados para treinar o modelo.
 
+    ![This image is the portuguese registration form](./img/new_patient_form_portuguese.png)
+
     |  Elemento do documento | Nome do rótulo  |
     |---|---|
     | Idioma do documento iso | iso  |
@@ -144,6 +150,8 @@ Agora você tem todos os documentos em seu conjunto de dados rotulados. Se você
 
 1. 选择分析文档上的姓氏字段，然后从标签列表中选择“family_name”。
 1. 对文档中的其余字段重复此过程。 正确标记文档中的所有字段非常重要，因为它们将用于训练模型。
+
+    ![This image is the Chinese registration form](./img/new_patient_form_chinese.png)
 
     |  文档元素 | 标签名称  |
     |---|---|
