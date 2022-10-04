@@ -16,7 +16,7 @@ The following image is of the fifth document that needs to be labeled.
 
 ## Label the new patient registration form
 
-The following steps will show you how to label your data. 
+The following steps will show you how to label your data.
 
 The document language will match the folder of documents you uploaded to your Azure Storage Account. For example, if you uploaded the English folder, the document language will be English.
 
@@ -64,6 +64,7 @@ The following tables show the labels that are available for the new patient regi
     | Reaction row 1 | reaction_1 |
     | Reaction row 2 | reaction_2 |
     | Reaction row 3 | reaction_3 |
+    | date | date |
 
 You now have all the documents in your dataset labeled. If you look at the storage account, you'll find a *.labels.json* and *.ocr.json* files that correspond to each document in your training dataset and a new fields.json file. This training dataset will be submitted to train the model.
 
@@ -75,30 +76,31 @@ You now have all the documents in your dataset labeled. If you look at the stora
     |  Elemento de documento | Nombre de etiqueta  |
     |---|---|
     | Idioma del documento iso | iso  |
-    | Apellido | family_name  |
-    | Nombres dados | given_names  |
-    | Fecha de nacimiento             | date_of_birth |
+    | Nombre | family_name  |
+    | Apellido | given_names  |
+    | Fecha de nacimiento | date_of_birth |
     | Dirección | address_street |
     | Ciudad|  address_city |
     | Estado | address_state |
     | Código | address_code |
     | Correo electrónico | email |
     | Teléfono | phone |
-    | Casilla de verificación Preferir correo electrónico| prefer_email |
-    | Preferir casilla de teléfono | prefer_phone |
-    | Preferir casilla de texto| prefer_text |
-    | Mi identidad de genero| gender_identity |
-    | Mis pronombres | my_pronouns |
-    | Nombre del contacto de emergencia | emergency_name |
-    | Relación de contacto de emergencia | emergency_relationship |
-    | Correo electrónico de contacto de emergencia | emergency_email |
-    | Teléfono de contacto de emergencia | emergency_phone |
+    | Método de contacto preferido: Correo electrónico| prefer_email |
+    | Método de contacto preferido: teléfono | prefer_phone |
+    | Método de contacto preferido: Mensaje de texto | prefer_text |
+    | Mi identidad de género es | gender_identity |
+    | Mis pronombres son | my_pronouns |
+    | Contacto de emergencia: Nombre | emergency_name |
+    | Contacto de emergencia: Grado de parentesco | emergency_relationship |
+    | Contacto de emergencia: Correo electrónico | emergency_email |
+    | Contacto de emergencia: Teléfono | emergency_phone |
     | Alergia fila 1 | allergy_1 |
     | Alergia fila 2 | allergy_2 |
     | Alergia fila 3| allergy_3 |
     | Fila de reacción 1 | reaction_1 |
     | Fila de reacción 2 | reaction_2 |
     | Fila de reacción 3 | reaction_3 |
+    | Fecha | date |
 
 Ahora tiene todos los documentos en su conjunto de datos etiquetados. Si observa la cuenta de almacenamiento, encontrará archivos *.labels.json* y *.ocr.json* que corresponden a cada documento en su conjunto de datos de entrenamiento y un nuevo archivo fields.json. Este conjunto de datos de entrenamiento se enviará para entrenar el modelo.
 
@@ -110,31 +112,32 @@ Ahora tiene todos los documentos en su conjunto de datos etiquetados. Si observa
     |  Elemento do documento | Nome do rótulo  |
     |---|---|
     | Idioma do documento iso | iso  |
-    | Sobrenome | family_name  |
-    | Recebem nomes  | given_names  |
+    | Nome | family_name  |
+    | Sobrenome  | given_names  |
     | Data de nascimento            | date_of_birth |
-    | endereço da Rua | address_street |
+    | Endereço | address_street |
     | Cidade |  address_city |
     | Estada | address_state |
     | Código | address_code |
     | E-mail | email |
-    | Phone | Telefone |
+    | Telefone | Phone |
     | E-mail de preferência checkbox | prefer_email |
     | Telefone de preferência checkbox | prefer_phone |
     | Texto de preferência checkbox | prefer_text |
-    | Minha identidade de gênero | gender_identity |
-    | Meus pronomes | my_pronouns |
-    | Nome do contato de emergência | emergency_name |
-    | Relacionamento de contato de emergência | emergency_relationship |
-    | E-mail de contato de emergência | emergency_email |
-    | Telefone de contato de emergência | emergency_phone |
+    | Me identifico como (gênero) | gender_identity |
+    | Meus pronomes são: | my_pronouns |
+    | Contato de emergência: Nome | emergency_name |
+    | Contato de emergência: Grau de Parentesco  | emergency_relationship |
+    | Contato de emergência: E-mail | emergency_email |
+    | Contato de emergência: Telefone | emergency_phone |
     | Alergia linha 1 | allergy_1 |
     | Alergia linha 2 | allergy_2 |
     | Alergia linha 3 | allergy_3 |
     | Linha de reação 1 | reaction_1 |
     | Linha de reação 2 | reaction_2 |
     | Linha de reação 3 | reaction_3 |
-    
+    | Data| Date |
+
 Agora você tem todos os documentos em seu conjunto de dados rotulados. Se você observar a conta de armazenamento, encontrará arquivos *.labels.json* e *.ocr.json* que correspondem a cada documento em seu conjunto de dados de treinamento e um novo arquivo fields.json. Este conjunto de dados de treinamento será enviado para treinar o modelo.
 
 ## 普通话标签
