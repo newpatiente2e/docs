@@ -23,7 +23,11 @@ The document language will match the folder of documents you uploaded to your Az
 1. Select the last document in the list of documents. The document is named _sample.pdf_. Selecting the document will analyze and then open the document for labeling.
 1. Select the ISO language code for the document. You'll find this field in the top right-hand corner of the document, then from the list of labels, select **iso**.
 
+:::note
+
 You can filter the list of labels by typing the label name in the list of labels dropdown. For example, if you type `family` in the list of labels, the `family_name` label will be displayed.
+
+:::
 
 The following tables show the labels that are available for the new patient registration form for the following languages:
 
