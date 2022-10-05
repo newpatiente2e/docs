@@ -28,8 +28,8 @@ You can filter the list of labels by typing the label name in the list of labels
 The following tables show the labels that are available for the new patient registration form for the following languages:
 
 - [English Labels](#english-labels)
-- [Etiquetas espanholas](#etiquetas-espanholas)
-- [Etiquetas portuguesas](#etiquetas-portuguesas)
+- [Etiquetas Espanhol](#etiquetas-espanhol)
+- [Etiquetas Português ](#etiquetas-português)
 - [普通话标签](#普通话标签)
 
 ## English Labels
@@ -70,13 +70,14 @@ The following tables show the labels that are available for the new patient regi
 
 You now have all the documents in your dataset labeled. If you look at the storage account, you'll find a _.labels.json_ and _.ocr.json_ files that correspond to each document in your training dataset and a new fields.json file. This training dataset will be submitted to train the model.
 
-## Etiquetas espanholas
+## Etiquetas espanhol
 
 ![This image is the spanish registration form](./img/new_patient_form_spanish.png)
 
-1. Seleccione el campo Nombre de familia en el documento analizado, luego de la lista de etiquetas, seleccione `nombre_de_familia`.
-1. Repita este proceso para los campos restantes del documento. Es importante etiquetar correctamente todos los campos del documento, ya que se utilizarán para entrenar el modelo.
-    
+1. Seleccione el campo Nombre Completo en el documento analizado, luego de la lista de etiquetas, seleccione nombre_completo.
+
+1. Repita este proceso para los campos restantes del documento. Es muy importante etiquetar correctamente todos los campos del documento, ya que se utilizarán para entrenar el modelo.
+
     |  Elemento de documento | Nombre de etiqueta  |
     |---|---|
     | Idioma del documento iso | iso  |
@@ -106,13 +107,13 @@ You now have all the documents in your dataset labeled. If you look at the stora
     | Fila de reacción 3 | reaction_3 |
     | Fecha | date |
 
-Ahora tiene todos los documentos en su conjunto de datos etiquetados. Si observa la cuenta de almacenamiento, encontrará archivos _.labels.json_ y _.ocr.json_ que corresponden a cada documento en su conjunto de datos de entrenamiento y un nuevo archivo fields.json. Este conjunto de datos de entrenamiento se enviará para entrenar el modelo.
+Ahora tiene todos los documentos en su conjunto de datos etiquetados. Si observa la cuenta de almacenamiento, encontrará archivos .labels.json y .ocr.json que corresponden a cada documento en su conjunto de datos de entrenamiento y un nuevo archivo fields.json. Este conjunto de datos de entrenamiento se enviará para entrenar el modelo.
 
-## Etiquetas portuguesas
+## Etiquetas Português
 
 ![This image is the portuguese registration form](./img/new_patient_form_portuguese.png)
 
-1. Selecione o campo Family name no documento analisado e, na lista de rótulos, selecione `family_name`.
+1. Selecione o campo Nome Completo no documento analisado e, na lista de rótulos, selecione nome_completo.
 1. Repita este processo para os demais campos do documento. É importante rotular corretamente todos os campos no documento, pois eles serão usados para treinar o modelo.
 
     |  Elemento do documento | Nome do rótulo  |
@@ -143,8 +144,8 @@ Ahora tiene todos los documentos en su conjunto de datos etiquetados. Si observa
     | Linha de reação 2 | reaction_2 |
     | Linha de reação 3 | reaction_3 |
     | Data| Date |
-    
-Agora você tem todos os documentos em seu conjunto de dados rotulados. Se você observar a conta de armazenamento, encontrará arquivos _.labels.json_ e _.ocr.json_ que correspondem a cada documento em seu conjunto de dados de treinamento e um novo arquivo fields.json. Este conjunto de dados de treinamento será enviado para treinar o modelo.
+
+Agora você tem todos os documentos em seu conjunto de dados rotulados. Se você observar a conta de armazenamento, encontrará arquivos .labels.json e .ocr.json que correspondem a cada documento em seu conjunto de dados de treinamento e um novo arquivo fields.json. Este conjunto de dados de treinamento será enviado para treinar o modelo
 
 ## 普通话标签
 
