@@ -11,13 +11,13 @@ Most of the forms we complete nowadays are online but there are still times when
 
 This solution aims to address data issues that creep in with paper-based systems, plus the overhead associated with entering the new patient information into the surgery system.
 
-For this doctor's surgery, patient registration is still a paper-based process and will continue to be so for the foreseeable future. The surgery wants to improve the patient experience by moving to an online registration process. The surgery has a website and a mobile app, but it's not integrated with the patient registration process.
+For this doctor's surgery, patient registration is still a paper-based process and will continue to be so for the foreseeable future. The surgery wants to improve the patient experience by automating the paper based registration process.
 
 ## Workshop goals
 
-The goal of this workshop is for you to learn how to infuse AI technologies into a web based patient registration system. 
+The goal of this workshop is for you to learn how to infuse AI technologies into a web based patient registration system.
 
-1. The workshop solution is a simplified version of a real-world scenario, simple enough to be completed in a workshop but complex enough to demonstrate the power of AI technologies. 
+1. The workshop solution is a simplified version of a real-world scenario, simple enough to be completed in a workshop but complex enough to demonstrate the power of AI technologies.
 1. The workshop provides a step-by-step guide, taking you through the process of deploying the solution to Azure. You'll learn a little about Azure Static Web Apps, Azure Functions, Azure Cognitive Services, Azure Storage, and Azure Cosmos DB.
 
 ## Introduction to Form Recognizer
