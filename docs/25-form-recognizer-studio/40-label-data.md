@@ -32,8 +32,8 @@ You can filter the list of labels by typing the label name in the list of labels
 The following tables show the labels that are available for the new patient registration form for the following languages:
 
 - [English Labels](#english-labels)
-- [Etiquetas Espanhol](#etiquetas-espanhol)
-- [Etiquetas Português ](#etiquetas-português)
+- [Etiquetas Espanholas](#etiquetas-espanholas)
+- [Etiquetas Portuguêsas ](#etiquetas-portuguêsas)
 - [普通话标签](#普通话标签)
 
 ## English Labels
@@ -74,7 +74,7 @@ The following tables show the labels that are available for the new patient regi
 
 You now have all the documents in your dataset labeled. If you look at the storage account, you'll find a _.labels.json_ and _.ocr.json_ files that correspond to each document in your training dataset and a new fields.json file. This training dataset will be submitted to train the model.
 
-## Etiquetas espanhol
+## Etiquetas espanholas
 
 ![This image is the spanish registration form](./img/new_patient_form_spanish.png)
 
@@ -113,7 +113,7 @@ You now have all the documents in your dataset labeled. If you look at the stora
 
 Ahora tiene todos los documentos en su conjunto de datos etiquetados. Si observa la cuenta de almacenamiento, encontrará archivos .labels.json y .ocr.json que corresponden a cada documento en su conjunto de datos de entrenamiento y un nuevo archivo fields.json. Este conjunto de datos de entrenamiento se enviará para entrenar el modelo.
 
-## Etiquetas Português
+## Etiquetas Portuguêsas
 
 ![This image is the portuguese registration form](./img/new_patient_form_portuguese.png)
 
