@@ -50,11 +50,11 @@ The following outlines the process of the solution:
 1. The patient submits the verified new data.
 1. The surgery admin verifies registration and adds it to the doctor's surgery system.
 1. Data is stored in the surgery system.
-1. Document data is analyzed and translated.
+<!-- 1. Document data is analyzed and translated. -->
 1. New patient registration records are available to the surgery's nurse and doctor.
 
 ![The image shows the registration process](../static/img/registration_process.png)
 
-## Architecture
+<!-- ## Architecture
 
-![The image shows the architecture of the solution](../static/img/architecture.png)
+![The image shows the architecture of the solution](../static/img/architecture.png) -->
