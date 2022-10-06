@@ -15,7 +15,7 @@ For this doctor's surgery, patient registration is still a paper-based process a
 
 ## Workshop goals
 
-The goal of this workshop is for you to learn how to infuse AI technologies into a web based patient registration system. The workshop provides a step-by-step guide, taking you through the process of deploying the solution to Azure. You'll learn a little about Azure Static Web Apps, Azure Functions, Azure Cognitive Services, Azure Storage, and Azure Cosmos DB.
+The goal of this workshop is for you to learn how to infuse AI technologies into a web based patient registration system. The workshop solution is a simplified version of a real-world scenario, simple enough to be completed in a workshop but complex enough to demonstrate the power of AI technologies. The workshop provides a step-by-step guide, taking you through the process of deploying the solution to Azure. You'll learn a little about Azure Static Web Apps, Azure Functions, Azure Cognitive Services, Azure Storage, and Azure Cosmos DB.
 
 ## Introduction to Form Recognizer
 
