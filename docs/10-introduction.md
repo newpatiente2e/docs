@@ -3,8 +3,6 @@ sidebar_position: 1
 slug : /
 ---
 
-test
-
 # Workshop Introduction
 
 Most of the forms we complete nowadays are online but there are still times when we need to complete paper-based forms. There are plenty of examples, for this workshop, we've chosen a patient registration for a doctor's surgery as it's something we've all had to do at some point.
