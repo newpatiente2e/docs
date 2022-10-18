@@ -9,13 +9,16 @@ The Form Recognizer Studio provides and orchestrates all the API calls required 
 
     ![The image shows creating a new project](./img/studio-create-project.png)
 
-1. On the create project dialog, provide a name for your project, optionally a description, and select continue.
+1. On the create project dialog, provide a 
+    1. Name for your project, 
+    1. Optionally a description, 
+    1. Select **Continue**.
+
+1. On the next page, complete the following steps:
 
     1. Select your Azure subscription.
-    1. Select the resource group whose name starts with **contoso-patient-registration**.
-    1. Name the service **form-recognizer**.
-    1. Select the location closest to you.
-    1. Select the free pricing tier **F0**.
+    1. Select the resource group whose name starts with **rg-<YOUR_CONTOSO_RESOURCE_GROUP_NAME>**.
+    1. Select the Recognizer or Cognitive Service Resource.
     1. Select API version **2022-08-31 (General Availability)**.
     1. Select **Continue**.
 
@@ -24,8 +27,8 @@ The Form Recognizer Studio provides and orchestrates all the API calls required 
 1. Next select the storage account where you uploaded your custom model training dataset. 
 
     1. Select your Azure subscription.
-    1. Select the resource group **new-patient-registration**.
-    1. Select the storage account you created in the previous step.
+    1. Select the resource group **rg-<YOUR_CONTOSO_RESOURCE_GROUP_NAME>**.
+    1. Select the storage account, there should be only one storage account in this resource group.
     1. Select the **trainingdata** blob container.
     1. Leave the **Folder path** field empty.
     1. Select **Continue**.
