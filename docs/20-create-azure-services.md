@@ -11,7 +11,7 @@ The following services will be created in your Azure subscription
 
 ## Install the new patient registration services
 
-1. If you are using VS Code *devcontainers*, then from the VS Code main menu, select `Terminal`, and then select `New Terminal`.
+1. If you are using VS Code *devcontainers*, then ensure the devcontainer Docker image download has completed, then from the VS Code main menu, select `Terminal`, and then select `New Terminal`.
 1. If you installed the Azure Developer CLI locally, open a command prompt, and navigate to the `contoso_new_patient_app` folder.
 1. Initialize your Azure environment with `azd init`, 
 1. Follow the prompts to log in to your Azure subscription,
