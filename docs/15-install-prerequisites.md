@@ -38,6 +38,7 @@ Install the following:
 
 If you choose not to use the devcontainer, you will need to install the prerequisites on your local machine, then ensure you install the following apps on your computer:
 
+1. [VS Code](https://code.visualstudio.com/?WT.mc_id=aiml-77396-cxa)
 1. The [git](https://git-scm.com/) client.
 1. The [GitHub CLI](https://github.com/cli/cli).
 1. The [Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli?WT.mc_id=aiml-77396-cxa).
@@ -73,10 +74,10 @@ Follow these steps to open the patient registration app repo in VS Code.
 
 1. Open VS Code.
 1. Select **File** > **Open Folder**.
-1. Navigate to the *contoso_new_patient_app* folder and select **Open**.
+1. Open the **contoso_new_patient_app** folder and select **Open**.
 1. If you followed the recommendation to use *devcontainers*, then select **Reopen in Container** when prompted.
 
    :::note 
    Depending on your network speed, it may take a 5 to 10 minutes to download the Docker image and build the container. Carry on with the next steps while the container is being built.
 
-1. Restore unresolved dependencies by selecting **Restore**.
+1. **Restore** unresolved dependencies.
