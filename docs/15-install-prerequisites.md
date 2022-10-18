@@ -24,6 +24,16 @@ This workshop is using the [Azure Developer CLI](https://learn.microsoft.com/azu
 
 The recommended way to undertake the local development aspects of the workshop is to use [VS Code Remote Containers](https://code.visualstudio.com/docs/remote/containers?WT.mc_id=aiml-77396-cxa) (aka, devcontainers), which creates a Docker environment that is pre-installed with all the tools, dependencies, and extensions to complete the workshop.
 
+Install the following:
+
+1. Docker.
+   - [Windows](https://docs.docker.com/docker-for-windows/install/)
+   - [macOS](https://docs.docker.com/docker-for-mac/install/)
+   - [Linux](https://docs.docker.com/engine/install/)
+1. [VS Code](https://code.visualstudio.com/?WT.mc_id=aiml-77396-cxa)
+1. [VS Code Remote Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers&WT.mc_id=aiml-77396-cxa)
+
+
 ### Manual Local Setup
 
 If you choose not to use the devcontainer, you will need to install the prerequisites on your local machine, then ensure you install the following apps on your computer:
