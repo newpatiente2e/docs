@@ -43,7 +43,7 @@ Follow these steps to clone the patient registration assets repo to your local m
 1. Run the following command to clone the workshop repo:
 
    ```bash
-   git clone https://github.com/newpatiente2e/-Contoso-New-Patient-Assets.git contoso_new_patient_assets
+   git clone https://github.com/newpatiente2e/Contoso-New-Patient-Assets.git contoso_new_patient_assets
    ```
 
 ## Clone the patient registration app repo
