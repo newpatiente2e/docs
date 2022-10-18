@@ -2,7 +2,7 @@
 
 Form recognizer studio is a web-based tool that allows you to create custom models. You can use it to label your training documents and train your custom model.
 
-## Create custom model
+## Custom Form Recognizer models
 
 Form Recognizer uses advanced machine learning to extract text and table data from your documents. You can train custom models to extract data specific to your forms, or use the prebuilt models to extract common fields from receipts, invoices, and business cards.
 
@@ -24,10 +24,3 @@ Your training set will consist of structured documents where the formatting and 
 
 The custom neural (custom document) model uses deep learning models and base models trained on a large collection of documents. This model is then fine-tuned or adapted to your data when you train the model with a labeled dataset. Custom neural models support structured, semi-structured, and unstructured documents to extract fields. Custom neural models currently support English-language documents. When you're choosing between the two model types, start with a neural model to determine if it meets your functional needs. See [neural models](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer/concept-custom-neural?WT.mc_id=aiml-77396-cxa) to learn more about custom document models.
 
-## New patient registration form
-
-In this workshop, you will create a _custom template model_ to recognize the fields in the new patient registration form shown below. There are five forms in the training set, and each form contains the same fields, four of these forms have been labeled, the fifth form is unlabeled. As part of this workshop, you will label the fifth form.
-
-<!-- The following form will use to train your custom template model and is found in the _contoso_new_patient_assets_ repo you cloned earlier.
-
-![The image shows the new patient registration form](./img/new_patient_form.png) -->

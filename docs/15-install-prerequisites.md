@@ -46,6 +46,7 @@ If you choose not to use the devcontainer, you will need to install the prerequi
 1. The [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=bare-metal%2Clinuxmac&pivots=programming-language-csharp&WT.mc_id=aiml-77396-cxa).
 1. [Node.js v16 with npm](https://nodejs.org/).
 1. The [.NET SDK 6.0](https://dotnet.microsoft.com/download/dotnet/6.0?WT.mc_id=aiml-77396-cxa)
+1. The Static Web App CLI (SWA CLI) - `npm install -g @azure/static-web-apps-cli`
 
 ## Clone the patient registration assets repo
 
@@ -68,20 +69,3 @@ Follow these steps to clone the patient registration app repo to your local mach
    ```bash
    git clone https://github.com/newpatiente2e/Contoso-New-Patient-App.git contoso_new_patient_app
    ```
-
-## Open the patient registration app repo in VS Code
-
-Follow these steps to open the patient registration app repo in VS Code.
-
-1. Open VS Code.
-1. Select **File** > **Open Folder**.
-1. Open the **contoso_new_patient_app** folder and select **Open**.
-1. If you followed the recommendation to use *devcontainers*, then select **Reopen in Container** when prompted.
-
-   :::note 
-   Depending on your network speed, it may take a 5 to 10 minutes to download the Docker image and build the container.
-1. You may be prompted to install the C# extension. Select **Install**.
-
-   :::note 
-   If you are not using *devcontainers*, you will need to install the C# extension manually.
-1. **Restore** unresolved dependencies.

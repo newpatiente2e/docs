@@ -2,6 +2,10 @@
 
 This topic describes how to upload your training data to [Form Recognizer Studio](https://learn.microsoft.com/azure/applied-ai-services/form-recognizer/concept-form-recognizer-studio?WT.mc_id=aiml-77396-cxa).
 
+## New patient registration form
+
+In this workshop, you'll create a _custom template model_ to recognize the fields in the new patient registration form. There are five forms in the training set, and each form contains the same fields, four of these forms have been labeled, the fifth form is unlabeled. As part of this workshop, you'll label the fifth form.
+
 This workshop includes a *New Patient Registration Form* and matching label data you need to upload to an Azure storage container.
 
 The label data describes the location of the fields on the forms and was created for the workshop using Form recognizer Studio. The label data is in a JSON file that is named the same as the form file. For example, the label data for the form named `form1.pdf` is in the file named `form1.pdf.json`. The label data is in the same folder as the form files.
