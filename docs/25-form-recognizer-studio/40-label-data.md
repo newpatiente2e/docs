@@ -10,7 +10,7 @@ Watch this YouTube to understand how to label an English language version of a f
 
 ## New patient registration form
 
-The following image is of the fifth document that needs to be labeled.
+Select the document named **sample.pdf**. The document is the last in the list of documents on the **Label data** page.
 
 ![The image shows the label data panel](./img/label-data-panel.png)
 
