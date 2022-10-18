@@ -8,20 +8,28 @@ Watch this YouTube to understand how to label an English language version of a f
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/d1QHX47mSDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## New patient registration form
+<!-- ## New patient registration form
 
 Select the document named **sample.pdf**. The document is the last in the list of documents on the **Label data** page.
 
-![The image shows the label data panel](./img/label-data-panel.png)
+![The image shows the label data panel](./img/label-data-panel.png) -->
 
 ## Label the new patient registration form
 
 The following steps will show you how to label your data.
 
-The document language will match the folder of documents you uploaded to your Azure Storage Account. For example, if you uploaded the English folder, the document language will be English.
+<!-- The document language will match the folder of documents you uploaded to your Azure Storage Account. For example, if you uploaded the English folder, the document language will be English. -->
 
 1. Select the last document in the list of documents. The document is named _sample.pdf_. Selecting the document will analyze and then open the document for labeling.
 1. Select the ISO language code for the document. You'll find this field in the top right-hand corner of the document, then from the list of labels, select **iso**.
+1. Now repeat this labeling process for all the fields in the document. 
+
+    See the tables below for the list of form fields and their associated labels for:
+
+    - [English Labels](#english-labels),
+    - [Etiquetas Espanholas](#etiquetas-espanholas),
+    - [Etiquetas Portuguêsas ](#etiquetas-portuguêsas), and
+    - [普通话标签](#普通话标签).
 
 :::note
 
@@ -29,12 +37,12 @@ You can filter the list of labels by typing the label name in the list of labels
 
 :::
 
-The following tables show the labels that are available for the new patient registration form for the following languages:
+<!-- The following tables show the labels that are available for the new patient registration form for the following languages:
 
 - [English Labels](#english-labels)
 - [Etiquetas Espanholas](#etiquetas-espanholas)
 - [Etiquetas Portuguêsas ](#etiquetas-portuguêsas)
-- [普通话标签](#普通话标签)
+- [普通话标签](#普通话标签) -->
 
 ## English Labels
 
