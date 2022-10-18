@@ -66,3 +66,17 @@ Follow these steps to clone the patient registration app repo to your local mach
    ```bash
    git clone https://github.com/newpatiente2e/Contoso-New-Patient-App.git contoso_new_patient_app
    ```
+
+## Open the patient registration app repo in VS Code
+
+Follow these steps to open the patient registration app repo in VS Code.
+
+1. Open VS Code.
+1. Select **File** > **Open Folder**.
+1. Navigate to the *contoso_new_patient_app* folder and select **Open**.
+1. If you followed the recommendation to use *devcontainers*, then select **Reopen in Container** when prompted.
+
+   :::note 
+   Depending on your network speed, it may take a 5 to 10 minutes to download the Docker image and build the container. Carry on with the next steps while the container is being built.
+
+1. Restore unresolved dependencies by selecting **Restore**.
