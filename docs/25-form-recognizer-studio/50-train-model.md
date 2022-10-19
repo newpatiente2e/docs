@@ -18,6 +18,12 @@ With your dataset labeled, you're now ready to train your model. Follow these st
 1. Navigate to the *Models* menu to view the status of the train operation.
 1. You may need to refresh the **Models** page to see latest status of the train operation.
 
+    :::note
+
+    The training model status will change to **succeeded**. The model is now ready for use.
+
+    :::
+
     ![Train model status](./img/train-model-status.png)
 
 ## Test the model
