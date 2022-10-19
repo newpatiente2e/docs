@@ -51,20 +51,23 @@ CORS should now be configured to use the storage account from Form Recognizer St
 
 ## Upload new patient registration form training data
 
-From your web browser, navigate to the [Azure resource groups](https://portal.azure.com/#view/HubsExtension/BrowseResourceGroups) page for your subscription and select the resource group whose name starts with **rg-<YOUR_CONTOSO_RESOURCE_GROUP_NAME>**.
-
 Upload the *New Patient Registration Form* and matching label data to the storage container that you created in the previous step.
 
 1. From your web browser, navigate to the [Azure resource groups](https://portal.azure.com/#view/HubsExtension/BrowseResourceGroups) page.
 1. Select the resource group whose name starts with **rg-<YOUR_CONTOSO_RESOURCE_GROUP_NAME>**. You can use the filter box to help find the resource group.
-1. Select the storage account whose name starts with **storage**
-1. From the **Storage account** page, select **Containers**.
+1. Select the storage account whose name starts with **storage**.
+1. From the **Storage account** page, select **Containers** from the left-hand menu.
 1. Select the `trainingdata` container
 1. On the **trainingdata** page, select **Upload**.
 1. On the **Upload** page, select the **Select a file** icon.
 1. From the **Add files** dialog, select the all the files from the **contoso_new_patient_assets/training_labeled/<Language_folder>** folder you cloned to your computer.
 
+    :::note
+
     The new patient registration form has been localized into several languages. Select the folder that matches the language you want to use for the workshop.
+
+    :::
 
 1. Select **Open**.
 1. Select **Upload**.
+1. Close the **Upload blob** dialog.

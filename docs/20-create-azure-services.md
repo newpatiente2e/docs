@@ -56,3 +56,5 @@ From the terminal window, run the following commands to create the Azure Patient
     :::note
 
     It will take approximately 5 minutes to deploy the Azure services. So now is a great time to grab a cup of coffee, or tea, or read the next section of the workshop documentation.
+
+    :::
