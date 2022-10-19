@@ -52,3 +52,7 @@ From the terminal window, run the following commands to create the Azure Patient
 1. Select a region (e.g: **eastus**).
 1. Select your subscription.
 1. Deploy the Azure services with `azd up`.
+
+    :::note
+
+    It will take approximately 5 minutes to deploy the Azure services. So now is a great time to grab a cup of coffee, or tea, or read the next section of the workshop documentation.
