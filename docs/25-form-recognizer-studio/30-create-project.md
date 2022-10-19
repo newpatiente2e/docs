@@ -39,3 +39,5 @@ The Form Recognizer Studio provides and orchestrates all the API calls required 
     ![The image shows how to select the training data source](./img/connect_training_data_source.png)
 
 The form recognizer service will now be created and configured. Once the service is created, the Studio will open the project and display the **Label data** page.
+
+![The image shows the first form](./img/first_pre_labeled_form.png)
