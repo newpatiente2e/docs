@@ -51,7 +51,7 @@ CORS should now be configured to use the storage account from Form Recognizer St
 
 ## Upload new patient registration form training data
 
-From your web browser, navigate to the [Azure resource groups](https://portal.azure.com/#view/HubsExtension/BrowseResourceGroups) page for your subscription and select the resource group whose name starts with `contoso-patient-registration`.
+From your web browser, navigate to the [Azure resource groups](https://portal.azure.com/#view/HubsExtension/BrowseResourceGroups) page for your subscription and select the resource group whose name starts with **rg-<YOUR_CONTOSO_RESOURCE_GROUP_NAME>**.
 
 Upload the *New Patient Registration Form* and matching label data to the storage container that you created in the previous step.
 
