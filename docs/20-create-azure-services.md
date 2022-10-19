@@ -33,7 +33,7 @@ Follow these steps to open the patient registration app repo in VS Code.
 1. If you are using VS Code *devcontainers*, then ensure the devcontainer Docker image download has completed, then from the VS Code main menu, select `Terminal`, and then select `New Terminal`.
 1. If you installed the Azure Developer CLI locally, open a command prompt, and navigate to the `contoso_new_patient_app` folder.
 
-## Build the Static Web App
+### Build the Static Web App
 
 From the terminal window, run the following commands to build the static web app.
 
@@ -41,10 +41,12 @@ From the terminal window, run the following commands to build the static web app
 swa build
 ```
 
-## Create the Azure Patient Registration Services
+### Create the Azure Patient Registration Services
+
+From the terminal window, run the following commands to create the Azure Patient Registration Services.
 
 1. Authenticate to Azure by running the `az login --use-device-code` command.'
-1. Initialize your Azure environment with `azd init`, 
+1. Initialize your Azure environment with `azd init`,
 1. Follow the prompts to log in to your Azure subscription,
 1. Create a name for your resources (e.g: **contoso-health-app**),
 1. Select a region (e.g: **eastus**).
