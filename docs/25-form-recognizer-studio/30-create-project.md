@@ -9,10 +9,12 @@ The Form Recognizer Studio provides and orchestrates all the API calls required 
 
     ![The image shows creating a new project](./img/studio-create-project.png)
 
-1. On the create project dialog, provide a 
-    1. Name for your project, 
-    1. Optionally a description, 
+1. On the create project dialog, provide a
+    1. Name for your project,
+    1. Optionally a description,
     1. Select **Continue**.
+
+    ![The image shows how to enter project details](./img/new_project_wizard.png)
 
 1. On the next page, complete the following steps:
 
@@ -24,7 +26,7 @@ The Form Recognizer Studio provides and orchestrates all the API calls required 
 
     ![Select the Form Recognizer resource](./img/create-service-resources.png)
 
-1. Next select the storage account where you uploaded your custom model training dataset. 
+1. Next select the storage account where you uploaded your custom model training dataset.
 
     1. Select your Azure subscription.
     1. Select the resource group **rg-<YOUR_CONTOSO_RESOURCE_GROUP_NAME>**.
@@ -34,6 +36,6 @@ The Form Recognizer Studio provides and orchestrates all the API calls required 
     1. Select **Continue**.
     1. Select **Create project**.
 
-    ![Select the storage account](./img/studio-select-storage.png)
+    ![The image shows how to select the training data source](./img/connect_training_data_source.png)
 
 The form recognizer service will now be created and configured. Once the service is created, the Studio will open the project and display the **Label data** page.

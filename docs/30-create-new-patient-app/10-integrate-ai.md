@@ -122,7 +122,8 @@ To run the application locally, we need to set the environment variables for the
 1. Navigate to the [Azure portal](https://portal.azure.com) and open the resource group that was created for the workshop.
 1. Access the Storage Account resource `storage<hash>` and copy the connection string from the **Access Keys** section, replacing the `<STORAGE_CONNECTION_STRING>` value in the `local.settings.json` file.
 1. Access the Cosmos DB resource, `cosmos-<hash>` and copy the _Primary Connection String_ from the **Keys** section, replacing the `<COSMOS_DB_CONNECTION_STRING>` value in the `local.settings.json` file.
-1. Access the Form Recognizer resource , `form-recognizer-<hash>` and copy the _Endpoint_ and _Key 1_ from the **Keys and Endpoint** section, replacing the `<FORM_RECOGNIZER_ENDPOINT>` and `<FORM_RECOGNIZER_API_KEY>` values in the `local.settings.json` file, and set the `<FORM_RECOGNIZER_MODEL_ID>` value to the model ID created in the previous module.
+1. Access the Form Recognizer resource , `form-recognizer-<hash>` and copy the _Endpoint_ and _Key 1_ from the **Keys and Endpoint** section, replacing the `<FORM_RECOGNIZER_ENDPOINT>` and `<FORM_RECOGNIZER_API_KEY>` values in the `local.settings.json` file.
+1. Set the `<FORM_RECOGNIZER_MODEL_ID>` value to the model ID created in the previous module which should be **patient-registration-model**.
 
 Once all the environment variables have been set, we can run the application locally.
 
