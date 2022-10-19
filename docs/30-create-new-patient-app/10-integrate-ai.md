@@ -102,22 +102,23 @@ To run the application locally, we need to set the environment variables for the
 
 1. Create a new file (if one doesn't already exist) at `src/api/local.settings.json` and include the following code:
 
-   ```json
-   {
-     "IsEncrypted": false,
-     "Values": {
-       "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-       "NEW_PATIENT_STORAGE": "<STORAGE_CONNECTION_STRING>",
-       "FORM_RECOGNIZER_API_KEY": "<FORM_RECOGNIZER_API_KEY>",
-       "FORM_RECOGNIZER_ENDPOINT": "<FORM_RECOGNIZER_ENDPOINT>",
-       "FORM_RECOGNIZER_MODEL_ID": "<FORM_RECOGNIZER_MODEL_ID>",
-       "COSMOS_DB": "<COSMOS_DB_CONNECTION_STRING>"
-     },
-     "Host": {
-       "CORS": "*"
-     }
-   }
-   ```
+    ```json
+    {
+        "IsEncrypted": false,
+        "Values": {
+          "AzureWebJobsSecretStorageType": "files",
+          "FUNCTIONS_WORKER_RUNTIME": "dotnet",          
+          "NEW_PATIENT_STORAGE": "<STORAGE_CONNECTION_STRING>",
+          "FORM_RECOGNIZER_API_KEY": "<FORM_RECOGNIZER_API_KEY>",
+          "FORM_RECOGNIZER_ENDPOINT": "<FORM_RECOGNIZER_ENDPOINT>",
+          "FORM_RECOGNIZER_MODEL_ID": "<FORM_RECOGNIZER_MODEL_ID>",
+          "COSMOS_DB": "<COSMOS_DB_CONNECTION_STRING>"
+        },
+        "Host": {
+          "CORS": "*"
+        }
+    }
+    ```
 
 1. Navigate to the [Azure portal](https://portal.azure.com) and open the resource group that was created for the workshop.
 1. Access the Storage Account resource `storage<hash>` and copy the connection string from the **Access Keys** section, replacing the `<STORAGE_CONNECTION_STRING>` value in the `local.settings.json` file.
