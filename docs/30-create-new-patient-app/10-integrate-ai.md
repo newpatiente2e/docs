@@ -150,7 +150,7 @@ Once all the environment variables have been set, you can run the application lo
 
     <!-- ![The image shows the fields that were found in the image](img/fields.png) -->
 
-## Deploy
+## Deploy to Azure
 
 Deploy the app to Azure Static Web Apps with the Azure Developer CLI.
 
