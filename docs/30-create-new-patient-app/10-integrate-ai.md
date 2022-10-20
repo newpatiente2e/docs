@@ -135,7 +135,7 @@ Once all the environment variables have been set, you can run the application lo
 
     :::info
 
-    Depending on how fast your computer is, it may take up to 30 seconds for the application to start.
+    Depending on how fast your computer is, it may take up to 30 seconds for the Static Web App to start.
 
     :::
 
