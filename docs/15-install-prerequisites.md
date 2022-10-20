@@ -14,9 +14,9 @@ If you don't have a GitHub account then sign up for a free [GitHub organization 
 
 ## Local Development
 
-The application is a combination of C# for the API and integration with [Azure Form Recognizer](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer?WT.mc_id=aiml-77396-cxa), React with TypeScript for the web frontend, and [Bicep](https://learn.microsoft.com/azure/azure-resource-manager/bicep/overview?tabs=bicep&WT.mc_id=aiml-77396-cxa) for managing the Azure resources (maanged via the [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=bare-metal%2Clinuxmac&pivots=programming-language-csharp&WT.mc_id=aiml-77396-cxa)).
+The application is a combination of C# for the API and integration with [Azure Form Recognizer](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer?WT.mc_id=aiml-77396-cxa), React with TypeScript for the web frontend, and [Bicep](https://learn.microsoft.com/azure/azure-resource-manager/bicep/overview?tabs=bicep&WT.mc_id=aiml-77396-cxa) for managing the Azure resources (managed via the [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=bare-metal%2Clinuxmac&pivots=programming-language-csharp&WT.mc_id=aiml-77396-cxa)).
 
-For local development, we recommend using [VS Code](https://code.visualstudio.com/?WT.mc_id=aiml-77396-cxa) as the editor of choice, and the workshop is optimised for that.
+For local development, we recommend using [VS Code](https://code.visualstudio.com/?WT.mc_id=aiml-77396-cxa) as the editor of choice, and the workshop is optimized for that.
 
 This workshop is using the [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/overview?tabs=nodejs&WT.mc_id=aiml-77396-cxa) to simplify the creation, management, and deletion of Azure services.
 

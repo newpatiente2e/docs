@@ -30,7 +30,7 @@ The solution will build on Azure Form Recognizer. Azure Form Recognizer is a new
 |---|---|---|
 | Surgery admin: Drew |  Drew's role is to ensure new patients register in the surgery system. Drew also verifies new patient data before committing to the patient data in the surgery system. | ![The image shows the picture of an admin](../static/img/drew.png) |
 | Nurse: Alex | Alex uses new patient registration to understand any existing allergies or medicine reactions. | ![The image shows the picture of a nurse](../static/img/alex.png) |
-| Doctor: Anthony |  Anthony uses new patient registration to understand any existing allergies or medicine reactions. Anthony uses the new patient system to record medical events. | ![The image shows the photo of a doctor](../static/img/anthony.jpg) |
+| Doctor: Anthony |  Anthony uses new patient registration to understand any existing allergies or medicine reactions. | ![The image shows the photo of a doctor](../static/img/anthony.jpg) |
 
 ## Workshop outline
 

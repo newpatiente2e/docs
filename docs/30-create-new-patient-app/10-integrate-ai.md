@@ -108,11 +108,11 @@ To run the application locally, we need to set the environment variables for the
         "Values": {
           "AzureWebJobsSecretStorageType": "files",
           "FUNCTIONS_WORKER_RUNTIME": "dotnet",          
-          "NEW_PATIENT_STORAGE": "<STORAGE_CONNECTION_STRING>",
-          "FORM_RECOGNIZER_API_KEY": "<FORM_RECOGNIZER_API_KEY>",
-          "FORM_RECOGNIZER_ENDPOINT": "<FORM_RECOGNIZER_ENDPOINT>",
-          "FORM_RECOGNIZER_MODEL_ID": "<FORM_RECOGNIZER_MODEL_ID>",
-          "COSMOS_DB": "<COSMOS_DB_CONNECTION_STRING>"
+          "COSMOS_DB": "REPLACE_WITH_COSMOS_DB_CONNECTION_STRING",
+          "FORM_RECOGNIZER_API_KEY": "REPLACE_WITH_FORM_RECOGNIZER_API_KEY",
+          "FORM_RECOGNIZER_ENDPOINT": "REPLACE_WITH_FORM_RECOGNIZER_ENDPOINT",
+          "NEW_PATIENT_STORAGE": "REPLACE_WITH_STORAGE_CONNECTION_STRING",
+          "FORM_RECOGNIZER_MODEL_ID": "patient-registration-model"
         },
         "Host": {
           "CORS": "*"
@@ -120,17 +120,26 @@ To run the application locally, we need to set the environment variables for the
     }
     ```
 
-1. Navigate to the [Azure portal](https://portal.azure.com) and open the resource group that was created for the workshop.
-1. Access the Storage Account resource `storage<hash>` and copy the connection string from the **Access Keys** section, replacing the `<STORAGE_CONNECTION_STRING>` value in the `local.settings.json` file.
-1. Access the Cosmos DB resource, `cosmos-<hash>` and copy the _Primary Connection String_ from the **Keys** section, replacing the `<COSMOS_DB_CONNECTION_STRING>` value in the `local.settings.json` file.
-1. Access the Form Recognizer resource , `form-recognizer-<hash>` and copy the _Endpoint_ and _Key 1_ from the **Keys and Endpoint** section, replacing the `<FORM_RECOGNIZER_ENDPOINT>` and `<FORM_RECOGNIZER_API_KEY>` values in the `local.settings.json` file.
-1. Set the `<FORM_RECOGNIZER_MODEL_ID>` value to the model ID created in the previous module which should be **patient-registration-model**.
+1. Replace the placeholders with the values from the `azd env get-values` command that you saved in your text editor earlier.
+1. If you followed the instructions in the previous section, you should have a `patient-registration-model` model in Form Recognizer. If you used a different name, you'll need to update the `FORM_RECOGNIZER_MODEL_ID` value in the *local.settings.json* file
 
-Once all the environment variables have been set, we can run the application locally.
+Once all the environment variables have been set, you can run the application locally.
 
-1. Open the _Run and Debug_ view in VS Code (`CTRL + SHIFT + D`).
-1. From the drop down, select `launch: all` and click the _Start Debugging_ button.
-1. Once all the debuggers have started, navigate to `http://localhost:4280` in your browser.
+1. Open the *Run and Debug* view from the VS Code sidebar, or select <kbd>Ctrl+Shift+D</kbd> or <kbd>Cmd+Shift+D</kbd> on macOS.
+
+    ![The image shows how to launch the Run and Debug view](img/run.png)
+
+1. From the drop down, select `launch: all`, then select the _Start Debugging_ button.
+
+    ![The image shows how to select launch all](img/launch.png)
+
+    :::info
+
+    Depending on how fast your computer is, it may take up to 30 seconds for the application to start.
+
+    :::
+
+1. Once all the debuggers have started, navigate to [http://localhost:4280](http://localhost:4280) in your web browser.
 
 ## Deploy
 

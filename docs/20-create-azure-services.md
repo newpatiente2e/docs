@@ -58,3 +58,15 @@ From the terminal window, run the following commands to create the Azure Patient
     It will take approximately 5 minutes to deploy the Azure services. So now is a great time to grab a cup of coffee, or tea, or read the next section of the workshop documentation.
 
     :::
+
+### List the Azure service keys
+
+You will need the Azure service keys to configure the patient registration app. So, from the terminal window, run the following commands to list the Azure service keys.
+
+1. Run the following command to list Azure service keys.
+
+    ```bash
+    azd env get-values
+    ```
+
+1. Copy all the values from the output to a text editor. You will need these values to configure the patient registration app.
