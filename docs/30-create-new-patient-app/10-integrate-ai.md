@@ -143,7 +143,7 @@ Once all the environment variables have been set, you can run the application lo
 
 ## Test the Application
 
-1. Drag and drop one of the training images from the **contoso_new_patient_assets/training_labeled** folder into the drop zone. Be sure to use an image from the folder that matches the language you used to train the Form Recognizer model.
+1. Drag and drop one of the training images from the `contoso_new_patient_assets/training_labeled/<language>` folder into the drop zone. Be sure to use an image from the folder that matches the language you used to train the Form Recognizer model.
 1. Next, select **Upload**.
 1. Once the image has been uploaded, and after a few seconds, you'll see the fields that were extracted from the form.
 1. Select **Save** to save the data to Patient Registration Cosmos DB.
