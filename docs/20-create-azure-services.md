@@ -45,10 +45,10 @@ swa build
 
 From the terminal window, run the following commands to create the Azure Patient Registration Services.
 
-1. Authenticate to Azure by running the `az login --use-device-code` command.'
-1. Initialize your Azure environment with `azd init`,
-1. Follow the prompts to log in to your Azure subscription,
-1. Create a name for your resources (e.g: **contoso-health-app**),
+1. Authenticate to Azure by running the `az login --use-device-code` command.
+1. Initialize your Azure environment with `azd init` command.
+1. Follow the prompts to log in to your Azure subscription.
+1. Create an environment name. For this workshop, the environment name must be globally unique. Create a unique environment name by appending a random 6 digital number after **contoso-health-app-NNNNNN**, for example, **contoso-health-app-318721**. But don't use the example name, use your own.
 1. Select a region (e.g: **eastus**).
 1. Select your subscription.
 1. Deploy the Azure services with `azd up`.
@@ -56,6 +56,14 @@ From the terminal window, run the following commands to create the Azure Patient
     :::note
 
     It will take approximately 5 minutes to deploy the Azure services. So now is a great time to grab a cup of coffee, or tea, or read the next section of the workshop documentation.
+
+    :::
+
+    :::tip
+
+    - You can only have one free Azure Form Recognizer service in your Azure subscription.
+    - If the `azd up` command fails, then rerun the command with the `--debug` option to see the error message. For example, `azd up --debug`.
+    - If your azd environment fails to deploy, you can delete the environment by deleting the `.azure` folder in the `contoso_new_patient_app` folder.
 
     :::
 
