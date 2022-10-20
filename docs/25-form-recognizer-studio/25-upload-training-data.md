@@ -60,7 +60,7 @@ Upload the *New Patient Registration Form* and matching label data to the storag
 1. Select the `trainingdata` container
 1. On the **trainingdata** page, select **Upload**.
 1. On the **Upload** page, select the **Select a file** icon.
-1. From the **Add files** dialog, select the all the files from the **contoso_new_patient_assets/training_labeled/<Language_folder>** folder you cloned to your computer.
+1. From the **Add files** dialog, select the all the files from the `contoso_new_patient_assets/training_labeled/<Language_folder>` folder you cloned to your computer.
 
     :::note
 
