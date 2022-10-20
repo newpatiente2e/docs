@@ -6,7 +6,7 @@ Complete a new patient registration form and upload it to the patient registrati
 
 You can print the document and then fill it out by hand, or you can open the document in a PDF reader and edit the document. 
 
-Use the **contoso_new_patient_assets/forms/new_patient_information_<language\>.pdf** document that matches the language you used to label and train the model in Form Recognizer Studio.
+Use the `contoso_new_patient_assets/forms/new_patient_information_<language>.pdf` document that matches the language you used to label and train the model in Form Recognizer Studio.
 
 ### Fill out the form by hand
 
@@ -17,7 +17,7 @@ Use the **contoso_new_patient_assets/forms/new_patient_information_<language\>.p
 
 ### Edit the form in a PDF reader
 
-1. Open the **contoso_new_patient_assets/forms/new_patient_information.pdf** file in a PDF reader.
+1. Open the `contoso_new_patient_assets/forms/new_patient_information.pdf` file in a PDF reader.
 1. Complete the form using the edit tools in the PDF reader.
 1. Save the file.
 
