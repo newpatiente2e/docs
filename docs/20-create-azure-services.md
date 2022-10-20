@@ -62,7 +62,7 @@ From the terminal window, run the following commands to create the Azure Patient
     :::tip
 
     - You can only have one free Azure Form Recognizer service in your Azure subscription.
-    - If the `azd up` command fails, then rerun the command with the `--debug` option to see the error message. For example, `azd up --debug`.
+    - If the `azd up` command fails, then rerun the command with the debug flag `azd up --debug` to see detailed error messages.
     - If your azd environment fails to deploy, you can delete the environment by deleting the `.azure` folder in the `contoso_new_patient_app` folder.
 
     :::

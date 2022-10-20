@@ -4,10 +4,10 @@ In this section, we're going to be updating an Azure Function to call Form Recog
 
 ## Updating the Azure Function
 
-1. Start VS Code and open the `contoso_new_patient_app` folder.
-1. Open the `UploadFile.cs` file, located at `src/api/NewPatient/UploadFile.cs`.
-1. Scroll down to the `// TODO: Call Azure Form Recognizer` section.
-1. Replace the `// TODO` comment and `throw` statement with the following code
+1. Start VS Code and open the **contoso_new_patient_app** folder.
+1. Open the **UploadFile.cs** file, located at **src/api/NewPatient/UploadFile.cs**.
+1. Scroll down to the **// TODO: Call Azure Form Recognizer** section.
+1. Replace the **// TODO comment and throw** statement with the following code
 
    ```csharp
    string? endpoint = Environment.GetEnvironmentVariable("FORM_RECOGNIZER_ENDPOINT");
@@ -98,9 +98,9 @@ Lastly, we'll call Form Recognizer, telling it which image we want to analyze an
 
 ## Running Locally
 
-To run the application locally, we need to set the environment variables for the Azure Function in the `local.settings.json` file.
+To run the application locally, we need to set the environment variables for the Azure Function in the **local.settings.json** file.
 
-1. Create a new file (if one doesn't already exist) at `src/api/local.settings.json` and include the following code:
+1. Create a new file (if one doesn't already exist) at **src/api/local.settings.json** and include the following code:
 
     ```json
     {
@@ -121,15 +121,15 @@ To run the application locally, we need to set the environment variables for the
     ```
 
 1. Replace the placeholders with the values from the `azd env get-values` command that you saved in your text editor earlier.
-1. If you followed the instructions in the previous section, you should have a `patient-registration-model` model in Form Recognizer. If you used a different name, you'll need to update the `FORM_RECOGNIZER_MODEL_ID` value in the *local.settings.json* file
+1. If you followed the instructions in the previous section, you should have a **patient-registration-model** model in Form Recognizer. If you used a different name, you'll need to update the **FORM_RECOGNIZER_MODEL_ID** value in the **local.settings.json** file
 
 Once all the environment variables have been set, you can run the application locally.
 
-1. Open the *Run and Debug* view from the VS Code sidebar, or select <kbd>Ctrl+Shift+D</kbd> or <kbd>Cmd+Shift+D</kbd> on macOS.
+1. Open the **Run and Debug** view from the VS Code sidebar, or select <kbd>Ctrl+Shift+D</kbd> or <kbd>Cmd+Shift+D</kbd> on macOS.
 
     ![The image shows how to launch the Run and Debug view](img/run.png)
 
-1. From the drop down, select `launch: all`, then select the _Start Debugging_ button.
+1. From the drop down, select **launch: all**, then select the _Start Debugging_ button.
 
     ![The image shows how to select launch all](img/launch.png)
 
@@ -140,6 +140,15 @@ Once all the environment variables have been set, you can run the application lo
     :::
 
 1. Once all the debuggers have started, navigate to [http://localhost:4280](http://localhost:4280) in your web browser.
+
+## Test the Application
+
+1. Drag and drop one of the training images from the **contoso_new_patient_assets/training_labeled** folder into the drop zone. Be sure to use an image from the folder that matches the language you used to train the Form Recognizer model.
+1. Next, select **Upload**.
+1. Once the image has been uploaded, and after a few seconds, you'll see the fields that were extracted from the form.
+1. Select **Save** to save the data to Patient Registration Cosmos DB.
+
+    <!-- ![The image shows the fields that were found in the image](img/fields.png) -->
 
 ## Deploy
 
@@ -154,4 +163,5 @@ Deploy the app to Azure Static Web Apps with the Azure Developer CLI.
 
 ## Open the patient registration app in your browser
 
-From your browser, open the patient registration app at the URL displayed in the deployment logs.
+1. From your browser, open the patient registration app at the URL displayed in the deployment logs.
+1. Save the patient registration app URL for use in the next section.
