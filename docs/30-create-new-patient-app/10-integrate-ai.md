@@ -121,7 +121,7 @@ To run the application locally, we need to set the environment variables for the
     ```
 
 1. Replace the placeholders with the values from the `azd env get-values` command that you saved in your text editor earlier.
-1. If you followed the instructions in the previous section, you should have a **patient-registration-model** model in Form Recognizer. If you used a different name, you'll need to update the **FORM_RECOGNIZER_MODEL_ID** value in the **local.settings.json** file
+1. If you followed the instructions in the previous section, you should have a `patient-registration-model` model in Form Recognizer. If you used a different name, you'll need to update the **FORM_RECOGNIZER_MODEL_ID** value in the **local.settings.json** file
 
 Once all the environment variables have been set, you can run the application locally.
 
