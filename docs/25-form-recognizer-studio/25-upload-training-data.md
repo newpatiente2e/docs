@@ -72,3 +72,4 @@ You should have the Azure Portal open in a browser tab from the previous step. I
 1. Select **Open**.
 1. Select **Upload**.
 1. Close the **Upload blob** dialog.
+1. Leave the Azure portal open in a browser tab.
