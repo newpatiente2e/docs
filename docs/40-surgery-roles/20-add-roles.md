@@ -18,7 +18,7 @@ Access control rules are applied in the a top-down fashion. The first matching r
 
 :::
 
-1. Open `staticwebapp.config.json` in the `src` folder.
+1. Open `staticwebapp.config.json` in the `src/web` folder.
 1. Locate the `routes` section and add the surgery admin route restriction.
 
    ```json
@@ -104,4 +104,14 @@ Sign in to the patient registration app.
 
 1. From the patient registration app, select **Sign in**, and then select the **GitHub** login provider.
 1. If you added the **admin** role to the invitation, then you can add new patient registrations from the **Admin** tab.
-1. If you also added the **nurse** or **doctor** roles to the invitation, then you can view patient details from the **patient** tab.
+
+## Update your roles
+
+Next, you will update your roles in the Azure portal so that you have either the **nurse** or **doctor** role.
+
+1. From the Azure portal, select the Static Web App resource, from the left-hand menu, select **Role management**
+1. Select the user you want to update, and then update the role to either **nurse** or **doctor**.
+1. Select **Update**.
+1. Switch back to the patient registration web app, and logout.
+1. Log back in to the patient registration app.
+1. You will now see that you have access to the **Nurse** or the **Doctor** tabs depending on the role you assigned. You can now view the registered patient details.
