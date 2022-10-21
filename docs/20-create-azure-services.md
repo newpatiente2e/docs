@@ -67,8 +67,9 @@ From the terminal window, run the following commands to create the Azure Patient
 
     :::
 
-1. Open the newly created resource group in the Azure portal. The link to the resource group is displayed in the terminal window after the `azd up` command completes.
+1. Open the newly created resource group in the Azure portal in your web browser. The link to the resource group is displayed in the terminal window after the `azd up` command completes.
 
     ![The image shows the link to the Azure resource group](../static/img/resource_group_link.png)
 
+1. Leave the Azure portal open in your web browser as you will need to return to it later in the workshop.
 1. Leave VS Code open, as you will need it in the next section of the workshop.
