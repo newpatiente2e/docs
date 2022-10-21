@@ -53,8 +53,9 @@ CORS should now be configured to use the storage account from Form Recognizer St
 
 Upload the *New Patient Registration Form* and matching label data to the storage container that you created in the previous step.
 
-1. From your web browser, navigate to the [Azure resource groups](https://portal.azure.com/#view/HubsExtension/BrowseResourceGroups) page.
-1. Select the resource group whose name starts with **rg-<YOUR_CONTOSO_RESOURCE_GROUP_NAME>**. You can use the filter box to help find the resource group.
+You should have the Azure Portal open in a browser tab from the previous step. If you don't, navigate to the [Azure portal](https://portal.azure.com) and sign in.
+
+1. From the Azure portal, ensure you are in the correct subscription and resource group for this workshop.
 1. Select the storage account, the name starts with **storage**.
 1. From the **Storage account** page, select **Containers** from the left-hand menu.
 1. Select the `trainingdata` container
