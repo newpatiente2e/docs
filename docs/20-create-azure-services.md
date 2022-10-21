@@ -67,4 +67,8 @@ From the terminal window, run the following commands to create the Azure Patient
 
     :::
 
+1. Open the newly created resource group for the patient registration app in the Azure portal. The link to the resource is displayed in the terminal window after the `azd up` command completes.
+
+    ![The image shows the link to the Azure resource group](../static/img/resource_group_link.png)
+
 1. Leave VS Code open, as you will need it in the next section of the workshop.
