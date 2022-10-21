@@ -30,7 +30,7 @@ Follow these steps to open the patient registration app repo in VS Code.
 
 ## Open a terminal window
 
-1. If you are using VS Code *devcontainers*, then ensure the devcontainer Docker image download has completed, then from the VS Code main menu, select `Terminal`, and then select `New Terminal`.
+1. If you are using VS Code *devcontainers*, then ensure the devcontainer Docker image download has completed, then from VS Code, select <kbd>Ctrl+Shift+`</kbd> to open a new terminal window
 1. If you installed the Azure Developer CLI locally, open a command prompt, and navigate to the `contoso_new_patient_app` folder.
 
 <!-- ### Build the Static Web App
