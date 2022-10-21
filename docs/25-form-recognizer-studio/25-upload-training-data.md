@@ -55,7 +55,7 @@ Upload the *New Patient Registration Form* and matching label data to the storag
 
 1. From your web browser, navigate to the [Azure resource groups](https://portal.azure.com/#view/HubsExtension/BrowseResourceGroups) page.
 1. Select the resource group whose name starts with **rg-<YOUR_CONTOSO_RESOURCE_GROUP_NAME>**. You can use the filter box to help find the resource group.
-1. Select the storage account whose name starts with **storage**.
+1. Select the storage account, the name starts with **storage**.
 1. From the **Storage account** page, select **Containers** from the left-hand menu.
 1. Select the `trainingdata` container
 1. On the **trainingdata** page, select **Upload**.

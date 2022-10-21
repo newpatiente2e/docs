@@ -4,7 +4,7 @@ In this section, we're going to be updating an Azure Function to call Form Recog
 
 ## Updating the Azure Function
 
-1. Start VS Code and open the **contoso_new_patient_app** folder.
+1. Switch back to VS Code, you should still have the **contoso_new_patient_app** open in VS Code.
 1. Open the **UploadFile.cs** file, located at **src/api/NewPatient/UploadFile.cs**.
 1. Scroll down to the **// TODO: Call Azure Form Recognizer** section.
 1. Replace the **// TODO comment and throw** statement with the following code
@@ -96,6 +96,9 @@ Lastly, we'll call Form Recognizer, telling it which image we want to analyze an
 
 </details>
 
+<details>
+<summary>Optional. Run the patient Static Web App locally.</summary>
+
 ## Running Locally
 
 To run the application locally, we need to set the environment variables for the Azure Function in the **local.settings.json** file.
@@ -150,11 +153,13 @@ Once all the environment variables have been set, you can run the application lo
 
     <!-- ![The image shows the fields that were found in the image](img/fields.png) -->
 
+</details>
+
 ## Deploy to Azure
 
 Deploy the app to Azure Static Web Apps with the Azure Developer CLI.
 
-1. From VS Code, select `` CTRL + SHIFT + ` `` to open a new terminal.
+1. From VS Code, select <kbd>Ctrl+Shift+`</kbd> to open a new terminal.
 1. From the terminal, run the following command to start the function app. This command will deploy the updated function to Azure.
 
    ```bash

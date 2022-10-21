@@ -22,9 +22,7 @@ The following steps will show you how to label your data.
 
 1. Select the last document in the list of documents. The document is named _sample.pdf_. Selecting the document will analyze and then open the document for labeling.
 1. Select the ISO language code for the document. You'll find this field in the top right-hand corner of the document, then from the list of labels, select **iso**.
-1. Now repeat this labeling process for all the fields in the document. 
-
-    See the tables below for the list of form fields and their associated labels for:
+1. Now repeat this labeling process for all the fields in the document. See the tables below for the list of form fields and their associated labels for:
 
     - [English Labels](#english-labels),
     - [Etiquetas Espanholas](#etiquetas-espanholas),

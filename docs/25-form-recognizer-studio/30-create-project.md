@@ -5,6 +5,9 @@ The Form Recognizer Studio provides and orchestrates all the API calls required 
 1. Start by navigating to [Form Recognizer Studio](https://formrecognizer.appliedai.azure.com/studio).
 
 1. Select the **Custom models** tile, on the custom models page.
+
+    ![The image shows the custom models tile](img/custom_models_tile.png)
+
 1. Next, select the **Create a project** button.
 
     ![The image shows creating a new project](./img/studio-create-project.png)
@@ -20,7 +23,7 @@ The Form Recognizer Studio provides and orchestrates all the API calls required 
 
     1. Select your Azure subscription.
     1. Select the resource group whose name starts with **rg-<YOUR_CONTOSO_RESOURCE_GROUP_NAME>**.
-    1. Select the Recognizer or Cognitive Service Resource.
+    1. Select the Form Recognizer service Resource.
     1. Select API version **2022-08-31 (General Availability)**.
     1. Select **Continue**.
 
