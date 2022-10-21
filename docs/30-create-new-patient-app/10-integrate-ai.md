@@ -123,10 +123,23 @@ To run the application locally, we need to set the environment variables for the
     }
     ```
 
-1. Replace the placeholders with the values from the `azd env get-values` command that you saved in your text editor earlier.
-1. If you followed the instructions in the previous section, you should have a `patient-registration-model` model in Form Recognizer. If you used a different name, you'll need to update the **FORM_RECOGNIZER_MODEL_ID** value in the **local.settings.json** file
+### List the Azure service keys
+
+You will need the Azure service keys to configure the patient registration app. So, from the terminal window, run the following commands to list the Azure service keys.
+
+1. Run the following command to list Azure service keys.
+
+    ```bash
+    azd env get-values
+    ```
+
+### Update the local.settings.json file
+
+Replace the placeholders with the values from the `azd env get-values` command.
 
 Once all the environment variables have been set, you can run the application locally.
+
+### Run the application locally
 
 1. Open the **Run and Debug** view from the VS Code sidebar, or select <kbd>Ctrl+Shift+D</kbd> or <kbd>Cmd+Shift+D</kbd> on macOS.
 
@@ -144,7 +157,7 @@ Once all the environment variables have been set, you can run the application lo
 
 1. Once all the debuggers have started, navigate to [http://localhost:4280](http://localhost:4280) in your web browser.
 
-## Test the Application
+### Test the Application
 
 1. Drag and drop one of the training images from the `contoso_new_patient_assets/training_labeled/<language>` folder into the drop zone. Be sure to use an image from the folder that matches the language you used to train the Form Recognizer model.
 1. Next, select **Upload**.

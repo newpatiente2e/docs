@@ -67,16 +67,4 @@ From the terminal window, run the following commands to create the Azure Patient
 
     :::
 
-### List the Azure service keys
-
-You will need the Azure service keys to configure the patient registration app. So, from the terminal window, run the following commands to list the Azure service keys.
-
-1. Run the following command to list Azure service keys.
-
-    ```bash
-    azd env get-values
-    ```
-
-1. Copy all the Azure service keys to a text editor and keep them safe. You will need these values to configure the patient registration app.
-
-Leave VS Code open, as you will need it in the next section of the workshop.
+1. Leave VS Code open, as you will need it in the next section of the workshop.
