@@ -51,7 +51,7 @@ From the terminal window, run the following commands to create the Azure Patient
 1. Create an environment name. For this workshop, the environment name must be globally unique. Create a unique environment name by appending a random 6 digital number after **contoso-health-app-NNNNNN**, for example, **contoso-health-app-318721**. But don't use the example name, use your own.
 1. Select a region (e.g: **eastus**).
 1. Select your subscription.
-1. Deploy the Azure services with `azd up`.
+1. Deploy the Azure services with `azd up --debug`.
 
     :::note
 
@@ -62,7 +62,7 @@ From the terminal window, run the following commands to create the Azure Patient
     :::tip
 
     - You can only have one free Azure Form Recognizer service in your Azure subscription.
-    - If the `azd up` command fails, then rerun the command with the debug flag `azd up --debug` to see detailed error messages.
+    <!-- - If the `azd up` command fails, then rerun the command with the debug flag `azd up --debug` to see detailed error messages. -->
     - If your azd environment fails to deploy, you can delete the environment by deleting the `.azure` folder in the `contoso_new_patient_app` folder.
 
     :::
