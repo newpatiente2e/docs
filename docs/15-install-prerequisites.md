@@ -32,6 +32,7 @@ Install the following:
    - [Linux](https://docs.docker.com/engine/install/)
 1. [VS Code](https://code.visualstudio.com/?WT.mc_id=aiml-77396-cxa)
 1. [VS Code Remote Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers&WT.mc_id=aiml-77396-cxa)
+1. The [git](https://git-scm.com/) client.
 
 ### Manual Local Setup
 
