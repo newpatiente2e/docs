@@ -17,7 +17,7 @@ Invitations are specific to individual authorization-providers, so consider the 
 | Azure Active Directory | email address    |
 | GitHub                 | username         |
 | Twitter                | username         |
-| Facebook (preview)     | email ss         |
+| Facebook (preview)     | email address    |
 | Google (preview)       | email address    |
 
 You should have the Azure Portal open in a browser tab from the previous step. If you don't, navigate to the [Azure portal](https://portal.azure.com) and sign in.
@@ -27,7 +27,7 @@ You should have the Azure Portal open in a browser tab from the previous step. I
 1. Select the Static Web Apps, the name starts with **swa-**.
 1. Under _Settings_, click on **Role Management**.
 1. Click on the **Invite** button.
-1. Select an _Authorization provider_ from the list of options. Given a GitHub account is required for this workshop, select **GitHub**.
+1. Select an _Authorization provider_ from the list of options. You can choose your GitHub username, Twitter username, or Facebook or Google email addresses.
 1. Enter your GitHub account name in the _Invitee details_ box.
 1. Select the domain of your static site from the _Domain_ drop-down.
 1. For this workshop, add the following roles **admin** to list of role names in the _Role_ box. In a production app, you would normally only add the roles that are appropriate for the user.
