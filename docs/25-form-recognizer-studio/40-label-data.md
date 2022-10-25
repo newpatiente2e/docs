@@ -157,7 +157,7 @@ Ahora tiene todos los documentos en su conjunto de datos etiquetados. Si observa
 
 Agora você tem todos os documentos em seu conjunto de dados rotulados. Se você observar a conta de armazenamento, encontrará arquivos .labels.json e .ocr.json que correspondem a cada documento em seu conjunto de dados de treinamento e um novo arquivo fields.json. Este conjunto de dados de treinamento será enviado para treinar o modelo
 
-## 普通话标签
+<!-- ## 普通话标签
 
 1. 选择分析文档上的姓氏字段，然后从标签列表中选择“family_name”。
 1. 对文档中的其余字段重复此过程。 正确标记文档中的所有字段非常重要，因为它们将用于训练模型。
@@ -190,4 +190,4 @@ Agora você tem todos os documentos em seu conjunto de dados rotulados. Se você
 | 反应第 2 行 | reaction_2 |
 | 反应排 3 | reaction_3 |
 
-您现在已标记数据集中的所有文档。 如果您查看存储帐户，您会发现与训练数据集中的每个文档相对应的 _.labels.json_ 和 _.ocr.json_ 文件以及一个新的 fields.json 文件。 此训练数据集将被提交以训练模型。
+您现在已标记数据集中的所有文档。 如果您查看存储帐户，您会发现与训练数据集中的每个文档相对应的 _.labels.json_ 和 _.ocr.json_ 文件以及一个新的 fields.json 文件。 此训练数据集将被提交以训练模型。 -->

@@ -29,7 +29,7 @@ The Form Recognizer Studio provides and orchestrates all the API calls required 
 
     ![Select the Form Recognizer resource](./img/create-service-resources.png)
 
-1. Next select the storage account where you uploaded your custom model training dataset.
+1. Next, select the storage account where you uploaded your custom model training dataset.
 
     1. Select your Azure subscription.
     1. Select the resource group **rg-<YOUR_CONTOSO_RESOURCE_GROUP_NAME>**.

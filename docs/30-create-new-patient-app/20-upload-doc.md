@@ -29,6 +29,6 @@ Use the `contoso_new_patient_assets/forms/new_patient_information_<language>.pdf
 
     ![The gif shows the process of uploading a form](./img/basic-workflow.gif)
 
-## Validate the patient information
+## Validate the patient's information
 
 The patient registration app will extract the patient information from the form and display the information in the app. Confirm the information is correct and click the **Save** button.
