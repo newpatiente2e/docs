@@ -2,13 +2,29 @@
 
 ## Deleting Azure resources
 
-To delete the resources from Azure, run the following command:
+To delete the resources from Azure, from a VS Code terminal, run the following command:
 
 ```bash
 azd down
 ```
 
 This will prompt you to confirm that you want to delete the resources. Enter `y` to confirm.
+
+## Deleted the Azure Container Instance
+
+If you created an Azure Container Instance, you will need to delete it manually. To do this, from the Azure portal, open a Cloud Shell terminal and run the following command:
+
+```bash
+az container delete -g rg-globalai --name newpatient
+```
+
+:::warning
+
+The container instance costs approximately $US35 per month (as at Oct 2022). So, be sure to delete the container instance when you are done with the workshop.
+
+:::
+
+select **Resource groups** from the left-hand menu. Select the resource group that you created for the workshop. Select **Delete resource group**. Enter the name of the resource group to confirm the deletion.
 
 ## Purging the Form Recognizer resource
 

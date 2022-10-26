@@ -11,7 +11,7 @@ If you can't run Docker on your machine, you can use a [Developer Container Inst
 
 You will be presented with a bash terminal window in the Azure portal.
 
-![](img/cloud_shell_prompt.png)
+![The image shows the cloud shell prompt](img/cloud_shell_prompt.png)
 
 ## Create an Azure resource group
 
