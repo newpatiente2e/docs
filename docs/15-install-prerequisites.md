@@ -47,4 +47,4 @@ If you can't run Docker on your computer, or would prefer not to, then follow th
 
 ### Local installation
 
-This option requires the least amount of computer resources, but it is the most time consuming to install. Follow the [Local installation instructions](../install-prerequisites/local-installation). Installing the prerequisites locally will take approximately 10 minutes, and is supported on Windows, macOS, and Linux.
+This option requires the least amount of computer resources, but it is the most time consuming to install. Follow the [Local installation instructions](../install-prerequisites/local-install). Installing the prerequisites locally will take approximately 10 minutes, and is supported on Windows, macOS, and Linux.
