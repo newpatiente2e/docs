@@ -31,9 +31,9 @@ Follow these steps to clone the patient registration assets repo to your local m
    git clone https://github.com/newpatiente2e/Contoso-New-Patient-Assets.git contoso_new_patient_assets
    ```
 
-## Install the prerequisites
+## Install the workshop developer tools
 
-The are three ways to install the prerequisites. The option you choose will depend on your computer's capabilities and your preference.
+The are three ways to install the workshop developer tools. The option you choose will depend on your computer's capabilities and your preference.
 
 ### Dev Containers and Docker
 
