@@ -35,13 +35,13 @@ Follow these steps to clone the patient registration assets repo to your local m
 
 The are three ways to install the workshop developer tools. The option you choose will depend on your computer's capabilities and your preference.
 
-### Dev Containers and Docker
+### Docker Dev Containers
 
 If you can run Docker on your computer, follow the [Dev Container instructions](../install-prerequisites/dev-containers).
 
 Note, the minimum requirement for running Docker on your computer is 4GB of RAM, the recommended amount is 8GB of RAM.
 
-### Container Instances
+### Azure Container Instances
 
 If you can't run Docker on your computer or would prefer not to, follow the [Container Instance instructions](../install-prerequisites/container-instances).
 
