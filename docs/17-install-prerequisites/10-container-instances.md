@@ -76,7 +76,7 @@ ssh globalai@xx.xxx.xx.xx
 
     ![The image shows how to enter the repo url](img/clone_repo_url.png)
 
-1. Chose a folder to clone the repository to. Select the default folder, `/home/ubuntu/`.
+1. Choose a folder to clone the repository in to. Select the default folder, `/home/ubuntu/`.
 1. Select **OK** to clone the repository.
 1. You will be prompted to open the cloned repository. Select **Open**.
 1. You will be prompted for the password. Enter `back2gether`.
@@ -87,8 +87,8 @@ ssh globalai@xx.xxx.xx.xx
     1. Select **Install** for **Install Recommended Extensions**.
     1. Close the remaining notifications.
 1. Select **Restore** to restore the app dependencies.
-1. **DON'T** close VS Code as you will need it open for the rest of the workshop.
+1. **DON'T** close VS Code, as you'll need it open for the rest of the workshop.
 
-Congratulations! You have successfully created a developer container instance and connected to it using VS Code Remote SSH.
+Congratulations! You have successfully created a developer container instance and connected to it utilizing VS Code Remote SSH.
 
 Next, [create the workshop Azure Services](../../create-azure-services/)

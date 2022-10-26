@@ -14,9 +14,9 @@ If you don't have a GitHub account then sign up for a free [GitHub organization 
 
 ## The patient registration app
 
-The patient registration application is a combination of C# for the API and integration with [Azure Form Recognizer](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer?WT.mc_id=aiml-77396-cxa), React with TypeScript for the web frontend, and [Bicep](https://learn.microsoft.com/azure/azure-resource-manager/bicep/overview?tabs=bicep&WT.mc_id=aiml-77396-cxa) for managing the Azure resources (managed via the [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=bare-metal%2Clinuxmac&pivots=programming-language-csharp&WT.mc_id=aiml-77396-cxa)).
+The patient registration application is a combination of C# for the API and integration with [Azure Form Recognizer](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer?WT.mc_id=aiml-77396-cxa), React with TypeScript for the web front end, and [Bicep](https://learn.microsoft.com/azure/azure-resource-manager/bicep/overview?tabs=bicep&WT.mc_id=aiml-77396-cxa) for managing the Azure resources (managed via the [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=bare-metal%2Clinuxmac&pivots=programming-language-csharp&WT.mc_id=aiml-77396-cxa)).
 
-This workshop is using the [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/overview?tabs=nodejs&WT.mc_id=aiml-77396-cxa) to simplify the creation, management, and deletion of Azure services.
+This workshop uses the [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/overview?tabs=nodejs&WT.mc_id=aiml-77396-cxa) to simplify the creation, management, and deletion of Azure services.
 
 <!-- The recommended way to undertake the local development aspects of the workshop is to use [VS Code Remote Containers](https://code.visualstudio.com/docs/remote/containers?WT.mc_id=aiml-77396-cxa) (aka, devcontainers), which creates a Docker environment that is pre-installed with all the tools, dependencies, and extensions to complete the workshop. -->
 
@@ -37,14 +37,14 @@ The are three ways to install the workshop developer tools. The option you choos
 
 ### Dev Containers and Docker
 
-If you can run Docker on your computer, then follow the [Dev Container instructions](../install-prerequisites/dev-containers).
+If you can run Docker on your computer, follow the [Dev Container instructions](../install-prerequisites/dev-containers).
 
-Note, the minimum requirements for running Docker on your computer is 4GB of RAM, the recommended amount is 8GB of RAM.
+Note, the minimum requirement for running Docker on your computer is 4GB of RAM, the recommended amount is 8GB of RAM.
 
 ### Container Instances
 
-If you can't run Docker on your computer, or would prefer not to, then follow the [Container Instance instructions](../install-prerequisites/container-instances).
+If you can't run Docker on your computer or would prefer not to, follow the [Container Instance instructions](../install-prerequisites/container-instances).
 
 ### Local installation
 
-This option requires the least amount of computer resources, but it is the most time consuming to install. Follow the [Local installation instructions](../install-prerequisites/local-install). Installing the prerequisites locally will take approximately 10 minutes, and is supported on Windows, macOS, and Linux.
+This option requires the least amount of computer resources, but it is the most time-consuming to install. Follow the [Local installation instructions](../install-prerequisites/local-install). Installing the prerequisites locally will take approximately 10 minutes, and is supported on Windows, macOS, and Linux.

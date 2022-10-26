@@ -1,6 +1,6 @@
 # Dev Containers
 
-If you can run Docker locally, then you can open the workshop using [VS Code Remote Containers](https://code.visualstudio.com/docs/remote/containers?WT.mc_id=aiml-77396-cxa) (aka, Dev Containers). This will ensure that you have all the prerequisites installed and configured correctly for the workshop.
+If you can run Docker locally, you can open the workshop using [VS Code Dev Containers](https://code.visualstudio.com/docs/remote/containers?WT.mc_id=aiml-77396-cxa). Dev Containers ensures you have all the developer tools installed and configured correctly for the workshop.
 
 Install the following:
 
@@ -24,7 +24,7 @@ Install the following:
 
     ![The image shows how to enter the repo url](img/clone_repo_url.png)
 
-1. Chose a folder to clone the repository to.
+1. Choose a folder to clone the repository in to.
 1. Select **OK** to clone the repository.
 1. You will be prompted to open the cloned repository. Select **Open**.
 1. You will be prompted to **Reopen in Container** to open the repository in a Dev Container.
@@ -37,8 +37,8 @@ Install the following:
 
 1. Select **Install** to install the C# extension.
 1. Select **Restore** to restore the app dependencies.
-1. **DON'T** close VS Code as you will need it open for the rest of the workshop.
+1. **DON'T** close VS Code, as you'll need it open for the rest of the workshop.
 
-Congratulations! You have successfully created a developer container and connected to it using VS Code Dev Container support.
+Congratulations! You've successfully created a developer container and connected to it using VS Code Dev Container support.
 
 Next, [create the workshop Azure Services](../../create-azure-services/)

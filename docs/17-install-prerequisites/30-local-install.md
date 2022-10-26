@@ -24,13 +24,13 @@ If you choose not to use a Container Instance or run Docker locally, then you ca
 
     ![The image shows how to enter the repo url](img/clone_repo_url.png)
 
-1. Chose a folder to clone the repository to.
+1. Choose a folder to clone the repository in to.
 1. Select **OK** to clone the repository.
 1. You will be prompted to open the cloned repository. Select **Open**.
 1. Select **Install** for **Install Recommended Extensions**.
 1. Select **Restore** to restore the app dependencies.
-1. **DON'T** close VS Code as you will need it open for the rest of the workshop.
+1. **DON'T** close VS Code, as you'll need it open for the rest of the workshop.
 
-Congratulations! You have successfully installed the workshop prerequisites locally and have open the solution with VS Code.
+Congratulations! You've successfully installed the workshop prerequisites locally and opened the solution with VS Code.
 
 Next, [create the workshop Azure Services](../../create-azure-services/)
