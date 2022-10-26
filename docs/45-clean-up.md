@@ -24,8 +24,6 @@ The container instance costs approximately $US35 per month (as at Oct 2022). So,
 
 :::
 
-select **Resource groups** from the left-hand menu. Select the resource group that you created for the workshop. Select **Delete resource group**. Enter the name of the resource group to confirm the deletion.
-
 ## Purging the Form Recognizer resource
 
 When deleting a Form Recognizer resource, it is performed as a _soft delete_ so that you can recover it in the event of an accidental deletion. To completely delete the resource, you must purge it, using the following command:
