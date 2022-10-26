@@ -1,4 +1,4 @@
-# Container Instance
+# Azure Container Instance
 
 If you can't run Docker on your machine, you can use a [Developer Container Instance](https://azure.microsoft.com/products/container-instances?WT.mc_id=aiml-77396-cxa) to use for the workshop. We'll be connecting to the container instance using VS Code Remote SSH.
 

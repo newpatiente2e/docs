@@ -1,4 +1,4 @@
-# Dev Containers
+# Docker Dev Containers
 
 If you can run Docker locally, you can open the workshop using [VS Code Dev Containers](https://code.visualstudio.com/docs/remote/containers?WT.mc_id=aiml-77396-cxa). Dev Containers ensures you have all the developer tools installed and configured correctly for the workshop.
 
