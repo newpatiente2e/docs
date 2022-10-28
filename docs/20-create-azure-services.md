@@ -24,7 +24,7 @@ From the terminal window, run the following commands to create the Azure Patient
 1. Create an environment name. For this workshop, the environment name must be globally unique. Create a unique environment name by appending a random six digital number after **contoso-health-app-NNNNNN**, for example, **contoso-health-app-318721**. But don't use the example name, use your own.
 1. Select a region (e.g: **eastus**).
 1. Select your subscription.
-1. Deploy the Azure services with `azd up`.
+1. Deploy the Azure services with `azd up --debug`.
 
     :::note
 
