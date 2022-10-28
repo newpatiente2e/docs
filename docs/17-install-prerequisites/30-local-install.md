@@ -3,21 +3,33 @@
 If you choose not to use a Container Instance or run Docker locally, then you can install the prerequisites on your local machine, then ensure you install the following apps on your computer:
 
 1. [VS Code](https://code.visualstudio.com/?WT.mc_id=aiml-77396-cxa)
-1. The C# extension for VS Code. You can install it from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp&WT.mc_id=aiml-77396-cxa).
+
+1. The C# extension for VS Code. You can install the extension from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp&WT.mc_id=aiml-77396-cxa).
 1. The [git](https://git-scm.com/) client.
+
 1. The [GitHub CLI](https://github.com/cli/cli).
+
 1. The [Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli?WT.mc_id=aiml-77396-cxa).
+
+1. The [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd?tabs=baremetal%2Cwindows&WT.mc_id=aiml-77396-cxa).
+
 1. The [.NET SDK 6.0](https://dotnet.microsoft.com/download/dotnet/6.0?WT.mc_id=aiml-77396-cxa).
 
-    The easiest way to install the .NET SDK on Ubuntu is to use the package manager:
+    For Ubuntu users, the easiest way to install the .NET SDK is to use the package manager:
 
     ```bash
     sudo apt update && sudo apt install dotnet-sdk-6.0
     ```
 
-1. The [Azure Developer CLI (azd) for C#](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=bare-metal%2Clinuxmac&pivots=programming-language-csharp&WT.mc_id=aiml-77396-cxa).
 1. [Install the current LTS version of Node.js](https://nodejs.org/).
-1. The Static Web App CLI (SWA CLI) - `npm install -g @azure/static-web-apps-cli`
+
+    For Ubuntu users, follow the instructions on the [Node.js website](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions).
+
+1. The Static Web App CLI (SWA CLI)
+
+    ```bash
+    sudo npm install -g @azure/static-web-apps-cli
+    ```
 
 ## Clone the workshop repository
 
