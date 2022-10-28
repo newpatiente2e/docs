@@ -2,7 +2,7 @@
 
 ## A computer
 
-You will need a computer with a 64-bit operating system. The labs have been tested on Windows 10/11 (latest updates), macOS 12.6, and Ubuntu 20.04/22.04.
+You'll need a computer with a 64-bit operating system. The labs have been tested on Windows 10/11 (latest updates), macOS 12.6, and Ubuntu 20.04/22.04.
 
 ## An Azure Subscription
 
