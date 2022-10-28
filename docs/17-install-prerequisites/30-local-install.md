@@ -28,7 +28,7 @@ If you choose not to use a Container Instance or run Docker locally, then you ca
 1. The Static Web App CLI (SWA CLI)
 
     ```bash
-    sudo npm install -g @azure/static-web-apps-cli
+    npm install -g @azure/static-web-apps-cli
     ```
 
 ## Clone the workshop repository
