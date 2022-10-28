@@ -33,7 +33,7 @@ Follow these steps to clone the patient registration assets repo to your local m
 
 ## Install the workshop developer tools
 
-The are three ways to install the workshop developer tools. The option you choose will depend on your computer's capabilities and your preference.
+The are two ways to install the workshop developer tools. The option you choose will depend on your computer's capabilities and your preference.
 
 ### Docker Dev Containers
 
@@ -45,6 +45,6 @@ Note, the minimum requirement for running Docker on your computer is 4GB of RAM,
 
 If you can't run Docker on your computer or would prefer not to, follow the [Container Instance instructions](../install-prerequisites/container-instances).
 
-### Local installation
+<!-- ### Local installation
 
-This option requires the least amount of computer resources, but it is the most time-consuming to install. Follow the [Local installation instructions](../install-prerequisites/local-install). Installing the prerequisites locally will take approximately 10 minutes, and is supported on Windows, macOS, and Linux.
+This option requires the least amount of computer resources, but it is the most time-consuming to install. Follow the [Local installation instructions](../install-prerequisites/local-install). Installing the prerequisites locally will take approximately 10 minutes, and is supported on Windows, macOS, and Linux. -->
