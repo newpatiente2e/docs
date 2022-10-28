@@ -48,6 +48,7 @@ If you choose not to use a Container Instance or run Docker locally, then you ca
 1. You will be prompted to open the cloned repository. Select **Open**.
 1. Select **Install** for **Install Recommended Extensions**.
 1. Select **Restore** to restore the app dependencies.
+1. If the **Reopen in Container** notification appears, select **Don't Show Again**, then select **Current Folder**.
 1. **DON'T** close VS Code, as you'll need it open for the rest of the workshop.
 
 Congratulations! You've successfully installed the workshop prerequisites locally and opened the solution with VS Code.
