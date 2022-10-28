@@ -72,7 +72,11 @@ ssh globalai@xx.xxx.xx.xx
 
     ![The image shows hwo to select clone a repo](img/clone_repository.png)
 
-1. Enter the following URL: `https://github.com/newpatiente2e/Contoso-New-Patient-App.git`
+1. Enter the following URL:
+
+    ```text
+    https://github.com/newpatiente2e/Contoso-New-Patient-App.git
+    ```
 
     ![The image shows how to enter the repo url](img/clone_repo_url.png)
 

@@ -39,7 +39,11 @@ If you choose not to use a Container Instance or run Docker locally, then you ca
 
     ![The image shows hwo to select clone a repo](img/clone_repository.png)
 
-1. Enter the following URL: `https://github.com/newpatiente2e/Contoso-New-Patient-App.git`
+1. Enter the following URL:
+
+    ```text
+    https://github.com/newpatiente2e/Contoso-New-Patient-App.git
+    ```
 
     ![The image shows how to enter the repo url](img/clone_repo_url.png)
 
