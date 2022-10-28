@@ -6,7 +6,9 @@ The following services will be created in your Azure subscription:
 
 1. [Azure Form Recognizer](https://azure.microsoft.com/services/form-recognizer?WT.mc_id=aiml-77396-cxa).
 1. [Azure Cosmos DB](https://learn.microsoft.com/azure/cosmos-db/introduction?WT.mc_id=aiml-77396-cxa).
-1. [Azure Static Web Apps](https://azure.microsoft.com/services/app-service/static/?WT.mc_id=aiml-77396-cxa).
+1. [Azure Static Web Apps](https://learn.microsoft.com/azure/static-web-apps/?WT.mc_id=aiml-77396-cxa).
+1. [Azure Functions](https://learn.microsoft.com/azure/azure-functions/functions-overview?WT.mc_id=aiml-77396-cxa)
+1. [Azure Application Insights](https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview?tabs=net&WT.mc_id=aiml-77396-cxa)
 
 ## Open a terminal window in VS Code
 

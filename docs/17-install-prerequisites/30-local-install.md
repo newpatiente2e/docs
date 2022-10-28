@@ -10,7 +10,8 @@ If you choose not to use a Container Instance or run Docker locally, then you ca
 1. The [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=bare-metal%2Clinuxmac&pivots=programming-language-csharp&WT.mc_id=aiml-77396-cxa).
 1. [Node.js v16 with npm](https://nodejs.org/).
 1. The [.NET SDK 6.0](https://dotnet.microsoft.com/download/dotnet/6.0?WT.mc_id=aiml-77396-cxa)
-1. The Static Web App CLI (SWA CLI) - `npm install -g @azure/static-web-apps-cli`
+1. [The Static Web App CLI (SWA CLI)](https://azure.github.io/static-web-apps-cli/)
+    1. Run `npm install -g @azure/static-web-apps-cli` from a terminal after you have installed Node.js
 
 ## Clone the workshop repository
 
