@@ -6,7 +6,7 @@ id: install-prerequisites
 
 ## A computer
 
-You'll need a computer with a 64-bit operating system. The labs have been tested on Windows 10/11 (latest updates), macOS Monterey/Ventura, and Ubuntu 20.04/22.04.
+You'll need a computer with a 64-bit operating system. The labs have been tested on Windows 10/11 (latest updates), macOS Monterey/Ventura, Ubuntu 20.04/22.04, Chrome OS with Linux Development Environment enabled.
 
 ## An Azure Subscription
 
@@ -24,6 +24,12 @@ This workshop uses the [Azure Developer CLI](https://learn.microsoft.com/azure/d
 
 <!-- The recommended way to undertake the local development aspects of the workshop is to use [VS Code Remote Containers](https://code.visualstudio.com/docs/remote/containers?WT.mc_id=aiml-77396-cxa) (aka, devcontainers), which creates a Docker environment that is pre-installed with all the tools, dependencies, and extensions to complete the workshop. -->
 
+## Install the development tools
+
+1. Install [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=aiml-77396-cxa).
+    For chromebooks, review [learning with VS Code on Chromebooks](https://code.visualstudio.com/blogs/2020/12/03/chromebook-get-started?WT.mc_id=aiml-77396-cxa)
+1. Install the [git](https://git-scm.com/) client.
+
 ## Clone the patient registration assets repo
 
 Follow these steps to clone the patient registration assets repo to your local machine.
@@ -35,9 +41,9 @@ Follow these steps to clone the patient registration assets repo to your local m
    git clone https://github.com/newpatiente2e/Contoso-New-Patient-Assets.git contoso_new_patient_assets
    ```
 
-## Install the workshop developer tools
+## Set up the workshop environment
 
-The are two ways to install the workshop developer tools. The option you choose will depend on your computer's capabilities and your preference.
+The are two ways to set up the workshop environment. The option you choose will depend on your computer's capabilities and your preference.
 
 ### Azure Container Instances
 
