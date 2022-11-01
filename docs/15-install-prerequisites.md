@@ -6,7 +6,7 @@ id: install-prerequisites
 
 ## A computer
 
-You'll need a computer with a 64-bit operating system. The labs have been tested on Windows 10/11 (latest updates), macOS Monterey/Ventura, Ubuntu 20.04/22.04, Chrome OS with Linux Development Environment enabled.
+You'll need a computer with a 64-bit operating system. The labs have been tested on Windows 10/11 (latest updates), macOS Monterey/Ventura, Ubuntu 20.04/22.04, Chrome OS with the Linux Development Environment enabled.
 
 ## An Azure Subscription
 
