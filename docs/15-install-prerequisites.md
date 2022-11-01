@@ -1,3 +1,7 @@
+---
+id: install-prerequisites
+---
+
 # Install prerequisites
 
 ## A computer

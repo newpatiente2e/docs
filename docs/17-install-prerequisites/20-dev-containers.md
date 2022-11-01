@@ -1,3 +1,8 @@
+---
+pagination_prev: install-prerequisites
+pagination_next: create-azure-services
+---
+
 # Docker Dev Containers
 
 If you can run Docker locally, you can open the workshop using [VS Code Dev Containers](https://code.visualstudio.com/docs/remote/containers?WT.mc_id=aiml-77396-cxa). Dev Containers ensures you have all the developer tools installed and configured correctly for the workshop.
@@ -44,5 +49,3 @@ Install the following:
 1. **DON'T** close VS Code, as you'll need it open for the rest of the workshop.
 
 Congratulations! You've successfully created a developer container and connected to it using VS Code Dev Container support.
-
-Next, [create the workshop Azure Services](../../create-azure-services/)

@@ -1,3 +1,8 @@
+---
+pagination_prev: install-prerequisites
+pagination_next: create-azure-services
+---
+
 # Azure Container Instance
 
 If you can't run Docker on your machine, you can use a [Developer Container Instance](https://azure.microsoft.com/products/container-instances?WT.mc_id=aiml-77396-cxa) to use for the workshop. We'll be connecting to the container instance using VS Code Remote SSH.
@@ -94,5 +99,3 @@ ssh globalai@xx.xxx.xx.xx
 1. **DON'T** close VS Code, as you'll need it open for the rest of the workshop.
 
 Congratulations! You have successfully created a developer container instance and connected to it utilizing VS Code Remote SSH.
-
-Next, [create the workshop Azure Services](../../create-azure-services/)

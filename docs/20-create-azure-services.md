@@ -1,3 +1,7 @@
+---
+id: create-azure-services
+---
+
 # Create Azure services
 
 ## Deploy Azure services
