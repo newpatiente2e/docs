@@ -40,3 +40,7 @@ az cognitiveservices account purge -l $region -n $resourceName -g $resourceGroup
 The resource group name and region were specified when you setup the project during the [Create Azure resources](./20-create-azure-services.md) step. The name of the Form Recognizer resource is prefixed with `form-recognizer-` and then a unique hash, that will be present in the logs when you cleaned up the resources in the previous step.
 
 :::
+
+## Social
+
+Please tweet your questions, comments, and successes using hashtag #AzureFormRecognizer, using the workshop link [https://aka.ms/PatientRegistration](https://aka.ms/PatientRegistration), and tagging @dglover. Thank you.

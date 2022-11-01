@@ -61,3 +61,7 @@ The following outlines the process of the solution:
 <!-- ## Architecture
 
 ![The image shows the architecture of the solution](../static/img/architecture.png) -->
+
+## Social
+
+Please tweet your questions, comments, and successes using hashtag #AzureFormRecognizer, using the workshop link [https://aka.ms/PatientRegistration](https://aka.ms/PatientRegistration), and tagging @dglover. Thank you.

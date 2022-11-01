@@ -35,16 +35,14 @@ Follow these steps to clone the patient registration assets repo to your local m
 
 The are two ways to install the workshop developer tools. The option you choose will depend on your computer's capabilities and your preference.
 
-### Docker Dev Containers
-
-If you can run Docker on your computer, follow the [Dev Container instructions](../install-prerequisites/dev-containers).
-
-Note, the minimum requirement for running Docker on your computer is 4GB of RAM, the recommended amount is 8GB of RAM.
-
 ### Azure Container Instances
 
-If you can't run Docker on your computer or would prefer not to, follow the [Container Instance instructions](../install-prerequisites/container-instances).
+This is the recommended option, follow the [Azure Container Instance](../install-prerequisites/container-instances) instructions.
 
 <!-- ### Local installation
 
 This option requires the least amount of computer resources, but it is the most time-consuming to install. Follow the [Local installation instructions](../install-prerequisites/local-install). Installing the prerequisites locally will take approximately 10 minutes, and is supported on Windows, macOS, and Linux. -->
+
+### Docker Dev Containers
+
+If you run Docker on your computer, follow the [Dev Container](../install-prerequisites/dev-containers) instructions.
