@@ -64,4 +64,4 @@ The following outlines the process of the solution:
 
 ## Social
 
-Please tweet your questions, comments, and successes using hashtag #AzureFormRecognizer, using the workshop link [https://aka.ms/PatientRegistration](https://aka.ms/PatientRegistration), and tagging @dglover. Thank you.
+Please tweet your questions, comments, and successes including hashtag #AzureFormRecognizer, the workshop link [https://aka.ms/PatientRegistration](https://aka.ms/PatientRegistration), and tag @dglover. Thank you.
