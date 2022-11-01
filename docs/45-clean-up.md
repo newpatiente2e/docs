@@ -26,7 +26,7 @@ The container instance costs approximately $US35 per month (as at Oct 2022). So,
 
 ## Purging the Form Recognizer resource
 
-When deleting an Azure Form Recognizer resource, it's _soft deleted_ so you can recover it in the event of an accidental deletion. You have a 48hrs to recover a Form Recognizer resource. For more information, see [Recover deleted Cognitive Services resources](https://learn.microsoft.com/azure/cognitive-services/manage-resources)
+When deleting an Azure Form Recognizer resource, it's _soft deleted_ so you can recover it in the event of an accidental deletion. You have a 48hrs to recover a Form Recognizer resource. For more information, see [Recover deleted Cognitive Services resources](https://learn.microsoft.com/azure/cognitive-services/manage-resources?WT.mc_id=aiml-77396-cxa)
 
 This is optional, as Azure will perform a hard delete after 48hrs. You can force an immediate *hard delete* using the following command:
 
