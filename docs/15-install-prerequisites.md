@@ -27,7 +27,13 @@ This workshop uses the [Azure Developer CLI](https://learn.microsoft.com/azure/d
 ## Install the development tools
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=aiml-77396-cxa).
+
+    :::tip
+
     For chromebooks, review [learning with VS Code on Chromebooks](https://code.visualstudio.com/blogs/2020/12/03/chromebook-get-started?WT.mc_id=aiml-77396-cxa)
+
+    :::
+
 1. Install the [git](https://git-scm.com/) client.
 
 ## Clone the patient registration assets repo
