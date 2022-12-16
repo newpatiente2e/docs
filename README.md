@@ -4,6 +4,8 @@
 
 Docs are published on [GitHub Pages](https://newpatiente2e.github.io/docs)
 
+## Docusaurus
+
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
