@@ -25,7 +25,7 @@ The following steps will show you how to label your data.
 1. Now repeat this labeling process for all the fields in the document. See the tables below for the list of form fields and their associated labels for:
 
     - [English Labels](#english-labels),
-    - [Etiquetas Espanholas](#etiquetas-espanholas),
+    - [Etiquetas Españolas](#etiquetas-españolas),
     - [Etiquetas Portuguêsas ](#etiquetas-portuguêsas), and
     - [普通话标签](#普通话标签).
 
@@ -80,7 +80,7 @@ You can filter the list of labels by typing the label name in the list of labels
 
 You now have all the documents in your dataset labeled. If you look at the storage account, you'll find a _.labels.json_ and _.ocr.json_ files that correspond to each document in your training dataset and a new fields.json file. This training dataset will be submitted to train the model.
 
-## Etiquetas espanholas
+## Etiquetas Españolas
 
 ![This image is the spanish registration form](./img/new_patient_form_spanish.png)
 
