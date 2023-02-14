@@ -22,7 +22,7 @@ The Form Recognizer Studio provides and orchestrates all the API calls required 
 1. On the next page, complete the following steps:
 
     1. Select your Azure subscription.
-    1. Select the resource group whose name starts with **rg-<YOUR_CONTOSO_RESOURCE_GROUP_NAME>**.
+    1. Select the resource group whose name starts with **rg-contoso-health-app-NNNNNN**.
     1. Select the Form Recognizer service Resource.
     1. Select API version **2022-08-31 (General Availability)**.
     1. Select **Continue**.
@@ -32,7 +32,7 @@ The Form Recognizer Studio provides and orchestrates all the API calls required 
 1. Next, select the storage account where you uploaded your custom model training dataset.
 
     1. Select your Azure subscription.
-    1. Select the resource group **rg-<YOUR_CONTOSO_RESOURCE_GROUP_NAME>**.
+    1. Select the resource group **rg-contoso-health-app-NNNNNN**.
     1. Select the storage account, there should be only one storage account in this resource group.
     1. Select the **trainingdata** blob container.
     1. Leave the **Folder path** field empty.
