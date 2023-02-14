@@ -95,7 +95,8 @@ ssh globalai@xx.xxx.xx.xx
     1. Select **Don't Show Again** to disable **Reopen in Container**.
     1. Select **Install** for **Install Recommended Extensions**.
     1. Close the remaining notifications.
-1. Select **Restore** to restore the app dependencies.
+1. Select **Restore** to restore the app dependencies. Note, it may take between 10 and 20 seconds before the **Restore** notfication appears.
+1. Select the **Explorer** view from the VS Code **Activity Bar**.
 1. **DON'T** close VS Code, as you'll need it open for the rest of the workshop.
 
 Congratulations! You have successfully created a developer container instance and connected to it utilizing VS Code Remote SSH.
