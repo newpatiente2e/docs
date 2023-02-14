@@ -7,14 +7,13 @@ With your training forms labeled, you're now ready to train your model. Follow t
     ![image shows the train form button](./img/train-form-model.png)
 
 1. From the train a new model dialog, name your model `patient-registration-model`, and optionally, provide a description.
-1. Select **Template** from the **Build Mode**.
+1. Select **Template** from the **Build Mode**. Template models train in a few minutes. Neural models can take up to 30 minutes to train.
 
     Learn more about the [model types and capabilities](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer/concept-custom?WT.mc_id=aiml-77396-cxa).
 
     ![Train model dialog](./img/train-model-dialog.png)
 
-1. Select **Train** to initiate the training process.
-1. Template models train in a few minutes. Neural models can take up to 30 minutes to train.
+1. Select **Train** to initiate the training process. 
 1. Select **Go to Models** to navigate to the *Models* menu to view the status of the train operation.
 1. You may need to refresh the **Models** page to see latest status of the train operation.
 
