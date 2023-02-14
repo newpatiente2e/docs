@@ -41,7 +41,7 @@ In this section, we're going to be updating an Azure Function to call Form Recog
    return outputs;
    ```
 
-1. Save the file.
+1. You must **Save** the file.
 
 <details>
 <summary>What is this code doing?</summary>
