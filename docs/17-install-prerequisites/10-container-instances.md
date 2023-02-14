@@ -95,7 +95,7 @@ ssh globalai@xx.xxx.xx.xx
     1. Select **Don't Show Again** to disable **Reopen in Container**.
     1. Select **Install** for **Install Recommended Extensions**.
     1. Close the remaining notifications.
-1. Select **Restore** to restore the app dependencies. Note, it may take approximately 20 seconds for the **Restore** notfication to appear.
+1. Select **Restore** to restore the app dependencies. Note, it may take approximately 20 seconds for the **Restore** notification to appear.
 1. Select the **Explorer** view from the VS Code **Activity Bar**.
 1. **DON'T** close VS Code, as you'll need it open for the rest of the workshop.
 
