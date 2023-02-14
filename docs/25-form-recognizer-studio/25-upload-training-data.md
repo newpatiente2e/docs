@@ -60,8 +60,8 @@ You should have the Azure Portal open in a browser tab from the previous step. I
 1. From the **Storage account** page, select **Containers** from the left-hand menu.
 1. Select the `trainingdata` container
 1. On the **trainingdata** page, select **Upload**.
-1. On the **Upload** page, select the **Select a file** icon.
-1. From the **Add files** dialog, select the all the files from the `contoso_new_patient_assets/training_labeled/<Language_folder>` folder you cloned to your computer.
+1. On the **Upload blob** page, select **Browse for files**.
+1. From the **file manager** dialog, select the all the files from the `contoso_new_patient_assets/training_labeled/<Language_folder>` folder you cloned to your computer.
 
     :::note
 
