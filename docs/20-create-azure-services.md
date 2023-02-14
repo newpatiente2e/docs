@@ -20,7 +20,7 @@ From VS Code, select <kbd>Ctrl+Shift+`</kbd> to open a new terminal window.
 
 From the terminal window, run the following commands to create the Azure Patient Registration Services.
 
-1. Authenticate to Azure by running the following command.
+1. Authenticate to Azure by running the following command. Note, it may take up to 30 seconds for the `az login` command to complete.
 
     ```bash
     az login --use-device-code
