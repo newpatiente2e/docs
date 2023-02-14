@@ -181,5 +181,5 @@ Deploy the app to Azure Static Web Apps with the Azure Developer CLI.
 
 ## Open the patient registration app in your browser
 
-1. From your browser, open the patient registration app at the URL displayed in the deployment logs.
+1. From your browser, open the patient registration app at the **Web Service** URL displayed in the deployment logs.
 1. Save the patient registration app URL for use in the next section.
