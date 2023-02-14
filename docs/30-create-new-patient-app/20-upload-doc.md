@@ -23,9 +23,9 @@ Use the `contoso_new_patient_assets/forms/new_patient_information_<language>.pdf
 
 ## Upload the registration form
 
-1. Upload the file using the patient registration app you deployed in the previous section.
+1. Upload the file to the patient registration app you deployed in the previous section.
 1. The patient registration app will extract the patient information from the form and display the information in the app.
-1. Confirm the information is correct and click the **Upload** button.
+1. Confirm the information is correct and click the **Upload** button. 
 
     ![The gif shows the process of uploading a form](./img/basic-workflow.gif)
 
