@@ -27,8 +27,6 @@ Install the following:
 
     :::
 
-1. Install the [git](https://git-scm.com/) client.
-
 ## Clone the workshop repository
 
 1. Open VS Code.

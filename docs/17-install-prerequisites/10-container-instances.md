@@ -17,8 +17,6 @@ If you can't use GitHub Codespaces or run Docker on your machine, you can use a 
 
     :::
 
-1. Install the [git](https://git-scm.com/) client.
-
 ## Sign in to Azure and start the Azure Cloud Shell
 
 1. Sign in to the [Azure portal](https://portal.azure.com/?WT.mc_id=aiml-77396-cxa) using your Azure account.
