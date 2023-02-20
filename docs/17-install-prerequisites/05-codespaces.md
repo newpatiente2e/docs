@@ -16,4 +16,4 @@ GitHub Codespaces is a cloud-based development environment that allows you to co
 
     :::
 
-Congratulations! You have created a codespace. Now you can now continue with the next section of the workshop.
+Congratulations! You've created a codespace. Now you can now continue with the next section of the workshop.
