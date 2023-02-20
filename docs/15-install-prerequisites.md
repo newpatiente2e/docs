@@ -24,22 +24,11 @@ This workshop uses the [Azure Developer CLI](https://learn.microsoft.com/azure/d
 
 <!-- The recommended way to undertake the local development aspects of the workshop is to use [VS Code Remote Containers](https://code.visualstudio.com/docs/remote/containers?WT.mc_id=aiml-77396-cxa) (aka, devcontainers), which creates a Docker environment that is pre-installed with all the tools, dependencies, and extensions to complete the workshop. -->
 
-## Install the development tools
-
-1. Install [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=aiml-77396-cxa).
-
-    :::tip
-
-    For chromebooks, review [learning with VS Code on Chromebooks](https://code.visualstudio.com/blogs/2020/12/03/chromebook-get-started?WT.mc_id=aiml-77396-cxa)
-
-    :::
-
-1. Install the [git](https://git-scm.com/) client.
-
 ## Clone the patient registration assets repo
 
 Follow these steps to clone the patient registration assets repo to your local machine.
 
+1. Install the [git](https://git-scm.com/) client.
 1. Open a command prompt and navigate to the folder where you want to clone the repo.
 1. Run the following command to clone the workshop repo:
 

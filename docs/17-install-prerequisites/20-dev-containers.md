@@ -17,6 +17,18 @@ Install the following:
 1. [VS Code Remote Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers&WT.mc_id=aiml-77396-cxa)
 1. The [git](https://git-scm.com/) client.
 
+## Install the development tools
+
+1. Install [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=aiml-77396-cxa).
+
+    :::tip
+
+    For chromebooks, review [learning with VS Code on Chromebooks](https://code.visualstudio.com/blogs/2020/12/03/chromebook-get-started?WT.mc_id=aiml-77396-cxa)
+
+    :::
+
+1. Install the [git](https://git-scm.com/) client.
+
 ## Clone the workshop repository
 
 1. Open VS Code.

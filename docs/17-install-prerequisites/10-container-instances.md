@@ -5,7 +5,19 @@ pagination_next: create-azure-services
 
 # Azure Container Instance
 
-If you can't run Docker on your machine, you can use a [Developer Container Instance](https://azure.microsoft.com/products/container-instances?WT.mc_id=aiml-77396-cxa) to use for the workshop. We'll be connecting to the container instance using VS Code Remote SSH.
+If you can't use GitHub Codespaces or run Docker on your machine, you can use a [Developer Container Instance](https://azure.microsoft.com/products/container-instances?WT.mc_id=aiml-77396-cxa) to use for the workshop. We'll be connecting to the container instance using VS Code Remote SSH.
+
+## Install the development tools
+
+1. Install [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=aiml-77396-cxa).
+
+    :::tip
+
+    For chromebooks, review [learning with VS Code on Chromebooks](https://code.visualstudio.com/blogs/2020/12/03/chromebook-get-started?WT.mc_id=aiml-77396-cxa)
+
+    :::
+
+1. Install the [git](https://git-scm.com/) client.
 
 ## Sign in to Azure and start the Azure Cloud Shell
 
