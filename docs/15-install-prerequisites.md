@@ -49,11 +49,15 @@ Follow these steps to clone the patient registration assets repo to your local m
 
 ## Set up the workshop environment
 
-The are two ways to set up the workshop environment. The option you choose will depend on your computer's capabilities and your preference.
+The are three ways to set up the workshop environment. The option you choose will depend on your computer's capabilities and your preference.
+
+### GitHub Codespaces
+
+This is the recommended option, follow the [GitHub Codespaces](../install-prerequisites/codespaces) instructions.
 
 ### Azure Container Instances
 
-This is the recommended option, follow the [Azure Container Instance](../install-prerequisites/container-instances) instructions.
+If you don't have access to GitHub Codespaces, then follow the [Azure Container Instance](../install-prerequisites/container-instances) instructions.
 
 <!-- ### Local installation
 
