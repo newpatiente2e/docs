@@ -10,6 +10,18 @@ azd down
 
 This will prompt you to confirm that you want to delete the resources. Enter `y` to confirm.
 
+## Stop the GitHub Codespace
+
+If you are using a GitHub Codespace, you will need to stop the codespace. To stop a codespace, from VS Code in your web browser, select <kbd>F1</kbd> to open the command palette, then type and select **Codespaces: Stop Codespace**.
+
+:::warning
+
+As at Feburary 2023, GitHub personal accounts have up to 120 core hours per month of free codespaces usage. When you have completed the workshop, be sure to stop the current codespace to preserve your usage.
+
+A "core hour" is a measure used for included compute usage. On a 2-core machine, you would get 60 hours free. On a 4-core machine, you would get 30 hours free, etc. [Learn more](https://docs.github.com/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces) 
+
+:::
+
 ## Deleted the Azure Container Instance
 
 If you created an Azure Container Instance, you will need to delete it manually. To do this, from the Azure portal, open a Cloud Shell terminal and run the following command:
