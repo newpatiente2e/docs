@@ -74,6 +74,12 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ["csharp"],
       },
+
+      /* Clarity Config */
+      clarity: {
+        ID: "gxgduo9nnr", 
+      }
+
     }),
 };
 
