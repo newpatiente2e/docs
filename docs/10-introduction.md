@@ -1,11 +1,27 @@
 ---
 sidebar_position: 1
 slug : /
+
+image: https://newpatiente2e.github.io/docs/assets/images/registration_process-43dca5d4795ea05a0b16a2046696e41e.png
+description: "🏭 Learn how to build a new patient registration system using Azure Form Recognizer"
 ---
+
+import Social from '@site/src/components/social';
 
 # Workshop Introduction
 
 Most of the forms we complete nowadays are online but there are still times when we need to complete paper-based forms. There are plenty of examples, for this workshop, we've chosen a patient registration for a doctor's surgery as it's something we've all had to do at some point.
+
+## Please share
+
+<Social
+    page_url="https://aka.ms/PatientRegistration"
+    image_url="https://newpatiente2e.github.io/docs/assets/images/registration_process-43dca5d4795ea05a0b16a2046696e41e.png"
+    title="New Patient Azure Form Recognizer Workshop"
+    description= "🏭 Learn how to build a new patient registration system using Azure Form Recognizer @dglover"
+    hashtags="AzureFormRecognizer"
+    hashtag=""
+/>
 
 ## Workshop problem statement
 
@@ -61,7 +77,3 @@ The following outlines the process of the solution:
 <!-- ## Architecture
 
 ![The image shows the architecture of the solution](../static/img/architecture.png) -->
-
-## Social
-
-Please tweet your questions, comments, and successes including hashtag #AzureFormRecognizer, the workshop link [https://aka.ms/PatientRegistration](https://aka.ms/PatientRegistration), and tag @dglover. Thank you.
