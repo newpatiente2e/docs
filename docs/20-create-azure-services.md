@@ -22,8 +22,12 @@ From the terminal window, run the following commands to create the Azure Patient
 
 1. Authenticate to Azure by running the following command. Note, it may take up to 30 seconds for the `az login` command to complete.
 
-    ```bash
+<!--     ```bash
     az login --use-device-code
+    ``` -->
+    
+    ```bash
+    azd auth login
     ```
 
 1. Initialize your Azure environment with the following command.
