@@ -37,7 +37,7 @@ From the terminal window, run the following commands to create the Azure Patient
 1. Deploy the Azure services with the following command.
 
     ```bash
-    azd up --debug
+    azd up
     ```
 
 1. Select a region (e.g: **eastus**).
@@ -56,9 +56,9 @@ From the terminal window, run the following commands to create the Azure Patient
 
     :::
 
-1. When  the `azd up` command completes, select the **View resources** link to open the newly created resource group in the Azure web portal.
+<!-- 1. When  the `azd up` command completes, select the **View resources** link to open the newly created resource group in the Azure web portal.
 
-    ![The image shows the link to the Azure resource group](../static/img/resource_group_link.png)
+    ![The image shows the link to the Azure resource group](../static/img/resource_group_link.png) -->
 
 1. Leave the Azure portal open in your web browser as you'll need to return to it later in the workshop.
 1. Leave VS Code open, as you'll need it in the next section of the workshop.
