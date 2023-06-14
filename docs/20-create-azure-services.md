@@ -32,7 +32,6 @@ From the terminal window, run the following commands to create the Azure Patient
     azd init
     ```
 
-<!-- 1. Follow the prompts to log in to your Azure subscription. -->
 1. Create an environment name. For this workshop, the environment name must be globally unique. Create a unique environment name by appending a random six digital number after **contoso-health-app-NNNNNN**, for example, **contoso-health-app-318721**. But don't use the example name, use your own.
 
 1. Deploy the Azure services with the following command.
