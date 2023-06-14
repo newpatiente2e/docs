@@ -17,14 +17,14 @@ GitHub Codespaces is a cloud-based development environment that allows you to co
 
     :::
 
-:::warning
+    :::warning
 
-As at Feburary 2023, GitHub personal accounts have up to 120 core hours per month of free codespaces usage. When you have completed the workshop, be sure to stop the current codespace to preserve your usage.
+    As at Feburary 2023, GitHub personal accounts have up to 120 core hours per month of free codespaces usage. When you have completed the workshop, be sure to stop the current codespace to preserve your usage.
 
-A "core hour" is a measure used for included compute usage. On a 2-core machine, you would get 60 hours free. On a 4-core machine, you would get 30 hours free, etc. [Learn more](https://docs.github.com/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces) 
+    A "core hour" is a measure used for included compute usage. On a 2-core machine, you would get 60 hours free. On a 4-core machine, you would get 30 hours free, etc. [Learn more](https://docs.github.com/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces) 
 
-To stop a codespace, from VS Code in your web browser, select <kbd>F1</kbd> to open the command palette, then type and select **Codespaces: Stop Codespace**.
+    To stop a codespace, from VS Code in your web browser, select <kbd>F1</kbd> to open the command palette, then type and select **Codespaces: Stop Codespace**.
 
-:::
+    :::
 
 Congratulations! You've created a codespace. Now you can now continue with the next section of the workshop.
