@@ -44,7 +44,6 @@ From the terminal window, run the following commands to create the Azure Patient
 1. Select a region (e.g: **eastus**).
 1. Select your subscription.
 
-
     :::note
 
     It will take approximately 5 minutes to deploy the Azure services. So now is a great time to grab a cup of coffee or tea or read the next section of the workshop documentation.
@@ -54,7 +53,6 @@ From the terminal window, run the following commands to create the Azure Patient
     :::tip
 
     - You can only have one free Azure Form Recognizer service in your Azure subscription.
-    <!-- - If the `azd up` command fails, then rerun the command with the debug flag `azd up --debug` to see detailed error messages. -->
     - If your azd environment fails to deploy, you can delete the environment by deleting the `.azure` folder in the `contoso_new_patient_app` folder.
 
     :::
