@@ -15,7 +15,7 @@ With your training forms labeled, you're now ready to train your model. Follow t
 
 1. Select **Train** to initiate the training process. 
 1. Select **Go to Models** to navigate to the *Models* menu to view the status of the train operation.
-1. You may need to refresh the **Models** page to see latest status of the train operation.
+1. You may need to select `refresh` to see latest status of the train operation.
 
     :::note
 
