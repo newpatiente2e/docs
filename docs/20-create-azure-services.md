@@ -45,7 +45,7 @@ From the terminal window, run the following commands to create the Azure Patient
 
     :::note
 
-    It will take approximately 5 minutes to deploy the Azure services. So now is a great time to grab a cup of coffee or tea or read the next section of the workshop documentation.
+    It will take approximately 5 to 10 minutes to deploy the Azure services. So now is a great time to grab a cup of coffee or tea or read the next section of the workshop documentation.
 
     :::
 
@@ -56,5 +56,41 @@ From the terminal window, run the following commands to create the Azure Patient
 
     :::
 
-1. Leave the Azure portal open in your web browser as you'll need to return to it later in the workshop.
-1. Leave VS Code open, as you'll need it in the next section of the workshop.
+1. The output from the `azd up` command will look similar to the following.
+
+    ```text
+    Packaging services (azd package)
+
+    (✓) Done: Packaging service api
+    - Package Output: /tmp/azddeploy3376479742.zip
+    (✓) Done: Packaging service web
+    - Package Output: dist
+
+    Provisioning Azure resources (azd provision)
+    Provisioning Azure resources can take some time
+
+    (✓) Done: Resource group: rg-contoso-health-app-767678
+    (✓) Done: Form recognizer: form-recognizer-r2qoh4og4cf6a
+    (✓) Done: Storage account: storager2qoh4og4cf6a
+    (✓) Done: Azure Cosmos DB: cosmos-r2qoh4og4cf6a
+    (✓) Done: Application Insights: api-r2qoh4og4cf6a
+    (✓) Done: App Service plan: api-r2qoh4og4cf6a
+    (✓) Done: Static Web App: swa-r2qoh4og4cf6a
+
+    Deploying services (azd deploy)
+
+    (✓) Done: Deploying service api
+    - Endpoint: https://api-r2qoh4og4cf6a.azurewebsites.net/
+
+    (✓) Done: Deploying service web
+    - Endpoint: https://polite-coast-0a3c12c1e.3.azurestaticapps.net
+    ```
+
+2. Make a note of your `Resource group` and `Storage account` names, as you'll need them in the next section of the workshop.
+
+    ```bash
+    Resource group: rg-contoso-health-app-NNNNNN
+    Storage account: storagexxxxxxxxxxx
+    ```
+
+3. Leave VS Code Codespace open, as you'll need it in the next section of the workshop.

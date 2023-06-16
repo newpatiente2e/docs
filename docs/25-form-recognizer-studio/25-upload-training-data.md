@@ -53,15 +53,14 @@ CORS should now be configured to use the storage account from Form Recognizer St
 
 Upload the *New Patient Registration Form* and matching label data to the storage container that you created in the previous step.
 
-You should have the Azure Portal open in a browser tab from the previous step. If you don't, navigate to the [Azure portal](https://portal.azure.com) and sign in.
-
-1. From the Azure portal, ensure you are in the correct subscription and resource group for this workshop.
-1. Select the storage account, the name starts with **storage**.
-1. From the **Storage account** page, select **Containers** from the left-hand menu.
-1. Select the `trainingdata` container
-1. On the **trainingdata** page, select **Upload**.
-1. On the **Upload blob** page, select **Browse for files**.
-1. From the **file manager** dialog, select the all the files from the `contoso_new_patient_assets/training_labeled/<Language_folder>` folder you cloned to your computer.
+1. Navigate to the [Azure portal](https://portal.azure.com) and sign in.
+2. From the Azure Portal `burger menu`, select `All services`, then select `Storage accounts` to find your storage account.
+3. Select the storage account created in the previous step. The name starts with **storage**.
+4. From the **Storage account** page, select **Containers** from the left-hand menu.
+5. Select the `trainingdata` container
+6. On the **trainingdata** page, select **Upload**.
+7. On the **Upload blob** page, select **Browse for files**.
+8. From the **file manager** dialog, select the **all** the files from the `contoso_new_patient_assets/training_labeled/<Language_folder>` folder you cloned to your computer.
 
     :::note
 
@@ -69,7 +68,7 @@ You should have the Azure Portal open in a browser tab from the previous step. I
 
     :::
 
-1. Select **Open**.
-1. Select **Upload**.
-1. Close the **Upload blob** dialog.
-1. Leave the Azure portal open in a browser tab.
+9.  Select **Open**.
+10. Select **Upload**.
+11. Close the **Upload blob** dialog.
+12. Leave the Azure portal open in a browser tab.
