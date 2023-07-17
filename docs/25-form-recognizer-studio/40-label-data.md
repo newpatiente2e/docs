@@ -1,6 +1,6 @@
 # Label your data
 
-In your project, there are five documents, four of the documents have a purple dot to indicate the documents have been analyzed and labeled. The fifth document needs to be analyzed and labeled.
+In your project, there are five documents, four of the documents have a green dot to indicate the documents have been analyzed and labeled. The fifth document needs to be analyzed and labeled.
 
 ## Video introduction to labeling forms with Form Recognizer
 
@@ -20,7 +20,7 @@ The following steps will show you how to label your data.
 
 <!-- The document language will match the folder of documents you uploaded to your Azure Storage Account. For example, if you uploaded the English folder, the document language will be English. -->
 
-1. Select the last document in the list of documents. The document is named _sample.pdf_. 
+1. Select the document named _sample.pdf_. 
 2. Select `Run layout` the document will analyze and then open the document for labeling.
 3. Select the ISO language code for the document. You'll find this field in the top right-hand corner of the document, then from the list of labels, select **iso**.
 4. Now repeat this labeling process for all the fields in the document. See the tables below for the list of form fields and their associated labels for:
