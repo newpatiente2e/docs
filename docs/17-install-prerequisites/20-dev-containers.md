@@ -46,7 +46,7 @@ Install the following:
 1. Choose a folder to clone the repository in to.
 1. Select **OK** to clone the repository.
 1. You will be prompted to open the cloned repository. Select **Open**.
-1. You will be prompted to **Reopen in Container** to open the repository in a Dev Container.
+1. You will be prompted to **Reopen in Container** to open the repository in a Dev Container. Select **Reopen**.
 
    :::note
 
