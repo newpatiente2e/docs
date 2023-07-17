@@ -22,20 +22,6 @@ A "core hour" is a measure used for included compute usage. On a 2-core machine,
 
 :::
 
-## Deleted the Azure Container Instance
-
-If you created an Azure Container Instance, you will need to delete it manually. To do this, from the Azure portal, open a Cloud Shell terminal and run the following command:
-
-```bash
-az container delete -g rg-globalai --name newpatient
-```
-
-:::warning
-
-The container instance costs approximately $US35 per month (as at Oct 2022). So, be sure to delete the container instance when you are done with the workshop.
-
-:::
-
 ## Purging the Form Recognizer resource
 
 When deleting an Azure Form Recognizer resource, it's _soft deleted_ so you can recover it in the event of an accidental deletion. You have a 48hrs to recover a Form Recognizer resource. For more information, see [Recover deleted Cognitive Services resources](https://learn.microsoft.com/azure/cognitive-services/manage-resources?WT.mc_id=aiml-77396-cxa)
