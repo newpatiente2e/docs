@@ -29,9 +29,9 @@ When deleting an Azure Form Recognizer resource, it's _soft deleted_ so you can 
 This is optional, as Azure will perform a hard delete after 48hrs. You can force an immediate *hard delete* using the following command:
 
 ```bash
-$region=<Azure Region selected>
-$resourceName=<Form Recognizer resource name>
-$resourceGroupName=<Resource group name>
+region=<Azure Region selected>
+resourceName=<Form Recognizer resource name>
+resourceGroupName=<Resource group name>
 az cognitiveservices account purge -l $region -n $resourceName -g $resourceGroupName
 ```
 
